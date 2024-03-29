@@ -1,0 +1,198 @@
+.longMargin[data-v-7bfd901f] {
+    margin-top: 190px !important
+}
+
+.counter[data-v-7bfd901f] {
+    background: transparent;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    position: relative;
+    width: 100%
+}
+
+.counter_item[data-v-7bfd901f] {
+    color: #fff;
+    padding: 0 14px
+}
+
+.counter_value[data-v-7bfd901f] {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 1px;
+    position: relative
+}
+
+.counter_tooltip[data-v-7bfd901f] {
+    cursor: pointer;
+    height: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px
+}
+
+.counter_tooltip:hover+.counter_tooltip-body[data-v-7bfd901f] {
+    display: block
+}
+
+.counter_tooltip-body[data-v-7bfd901f] {
+    background: #2c2c32;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+    border-radius: 12px;
+    color: #fff;
+    display: none;
+    font-family: Geometria, Arial, sans-serif;
+    font-size: 14px;
+    padding: 16px;
+    position: absolute;
+    right: 27px;
+    top: -10px;
+    width: -moz-max-content;
+    width: max-content;
+    z-index: 10
+}
+
+.counter_label[data-v-7bfd901f],
+.counter_tooltip-body[data-v-7bfd901f] {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px
+}
+
+.counter_label[data-v-7bfd901f] {
+    font-size: 12px;
+    margin-top: 8px;
+    text-align: center;
+    white-space: break-spaces
+}
+
+.counter_loading[data-v-7bfd901f] {
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (max-width:1280px) {
+    .counter[data-v-7bfd901f] {
+        margin: 80px 0
+    }
+}
+
+@media (max-width:767px) {
+    .counter[data-v-7bfd901f] {
+        margin: 64px 0
+    }
+}
+
+.tabs_video {
+    margin-bottom: 24px
+}
+
+.tabs_video iframe {
+    height: 204px;
+    width: 100%
+}
+
+@media (max-width:1280px) {
+    .tabs_video iframe {
+        height: 342px;
+        width: 100%
+    }
+}
+
+@media (max-width:767px) {
+    .tabs_video iframe {
+        height: 204px;
+        width: 100%
+    }
+}
+
+.tabs_header[data-v-fdc83d43] {
+    border: 1px solid hsla(0, 0%, 100%, .15);
+    border-radius: 12px;
+    height: 58px;
+    position: relative
+}
+
+.tab[data-v-fdc83d43],
+.tabs_header[data-v-fdc83d43] {
+    background: transparent;
+    display: flex;
+    width: 100%
+}
+
+.tab[data-v-fdc83d43] {
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 16px;
+    position: inherit;
+    z-index: 2
+}
+
+.tab-active[data-v-fdc83d43]:hover {
+    background: inherit !important;
+    border-radius: 16px
+}
+
+.tab[data-v-fdc83d43]:hover {
+    background: #ffffff0d;
+    border-radius: 16px
+}
+
+.tab_backdrop[data-v-fdc83d43] {
+    background: #ffffff26;
+    border-radius: 11px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: transform .5s ease;
+    width: 50%;
+    z-index: 1
+}
+
+.tabs.second .tab_backdrop[data-v-fdc83d43] {
+    transform: translate(100%)
+}
+
+@media (max-width:1280px) {
+    .tabs[data-v-fdc83d43] {
+        margin-top: 80px
+    }
+}
+
+@media (max-width:767px) {
+    .tabs[data-v-fdc83d43] {
+        margin-top: 64px
+    }
+}
+
+.twitch-player {
+    height: 236px;
+    margin-bottom: 16px;
+    width: 100%
+}
+
+.twitch-player.--hidden {
+    height: 0;
+    margin-bottom: 0;
+    overflow: hidden
+}
+
+@media (max-width:1280px) {
+    .twitch-player {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        margin-top: 32px
+    }
+}
