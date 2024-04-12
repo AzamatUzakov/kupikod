@@ -1,0 +1,951 @@
+.purchase-form {
+    background-color: #ffffff0d;
+    border-radius: 16px;
+    height: -moz-fit-content;
+    height: fit-content
+}
+
+.purchase-form__logo {
+    flex: none
+}
+
+.purchase-form__header {
+    align-items: center;
+    background-position: 100%;
+    background-size: auto 100%, cover;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    padding: 26px 32px;
+    position: relative
+}
+
+@media (max-width:1620px) {
+    .purchase-form__header {
+        padding: 24px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-form__header {
+        border-radius: 16px 26px;
+        overflow: hidden
+    }
+
+    .purchase-form__header:after {
+        background-color: #0000004d;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: absolute
+    }
+}
+
+.purchase-form__header-text {
+    font-size: 32px;
+    line-height: 1.125;
+    margin-left: 16px;
+    max-width: 405px;
+    z-index: 1
+}
+
+@media (max-width:1620px) {
+    .purchase-form__header-text {
+        font-size: 28px;
+        line-height: 1;
+        max-width: 284px
+    }
+}
+
+@media (max-width:1280px) {
+    .purchase-form__header-text {
+        font-size: 32px;
+        line-height: .875
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-form__header-text {
+        font-size: 20px;
+        line-height: 1.2;
+        max-width: 225px
+    }
+}
+
+.purchase-form__header-image {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    z-index: 1
+}
+
+.purchase-form__logo {
+    background-size: cover;
+    border-radius: 21px;
+    height: 84px;
+    position: relative;
+    width: 84px;
+    z-index: 1
+}
+
+@media (max-width:1620px) {
+    .purchase-form__logo {
+        border-radius: 16px;
+        height: 72px;
+        width: 72px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-form__logo {
+        border-radius: 12px;
+        height: 64px;
+        width: 64px
+    }
+}
+
+.purchase-form__logo-label {
+    bottom: -29px;
+    height: 78px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 152px
+}
+
+.purchase-form__body {
+    grid-row-gap: 12px;
+    display: grid;
+    padding: 24px
+}
+
+@media (max-width:767px) {
+    .purchase-form__body {
+        display: none
+    }
+}
+
+.purchase-form__select .v-field__input {
+    height: 56px
+}
+
+.purchase-form__section {
+    position: relative
+}
+
+@media (max-width:767px) {
+    .purchase-form__section {
+        margin-top: 12px
+    }
+}
+
+.purchase-form__section--bottom {
+    align-items: center;
+    display: flex
+}
+
+@media (max-width:767px) {
+    .purchase-form__section--bottom {
+        flex-direction: column-reverse
+    }
+}
+
+.purchase-form__section--bottom.fade-enter-active,
+.purchase-form__section--bottom.fade-leave-active {
+    transition-duration: .2s;
+    transition-property: opacity;
+    transition-timing-function: ease-in-out
+}
+
+.purchase-form__section--bottom.fade-enter-from,
+.purchase-form__section--bottom.fade-leave-to {
+    opacity: 0
+}
+
+.purchase-form__section--splitted {
+    grid-column-gap: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.purchase-form__section--mobile {
+    display: none
+}
+
+@media (max-width:767px) {
+    .layout .purchase-form__section--mobile {
+        display: grid
+    }
+}
+
+.purchase-form__checkbox {
+    grid-column-gap: 12px;
+    align-items: center;
+    cursor: pointer;
+    display: grid;
+    grid-auto-flow: column
+}
+
+@media (max-width:767px) {
+    .purchase-form__checkbox {
+        justify-content: start;
+        width: 100%
+    }
+}
+
+.purchase-form__checkbox-custom {
+    background-color: #ffffff1a;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+    height: 16px;
+    transition-duration: .2s;
+    transition-property: border-color, background-color;
+    transition-timing-function: ease-in-out;
+    width: 16px
+}
+
+.purchase-form__checkbox--checked .purchase-form__checkbox-custom {
+    background-color: #00ff931a;
+    border-color: #00ff931a
+}
+
+.purchase-form__checkbox-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.34
+}
+
+.purchase-form__input--uid .v-field__input,
+.purchase-form__input--zid .v-field__input {
+    height: 56px;
+    padding-right: 165px
+}
+
+@media (min-width:768px) {
+
+    .layout--clash-of-clans .purchase-form__input--uid .v-field__input,
+    .layout--clash-of-clans .purchase-form__input--zid .v-field__input,
+    .layout--clash-royale .purchase-form__input--uid .v-field__input,
+    .layout--clash-royale .purchase-form__input--zid .v-field__input,
+    .layout--zepeto .purchase-form__input--uid .v-field__input,
+    .layout--zepeto .purchase-form__input--zid .v-field__input {
+        padding-right: 210px
+    }
+}
+
+.purchase-form__input--zid .v-field__input {
+    padding-right: 200px
+}
+
+.purchase-form__input-button {
+    align-items: center;
+    background-color: #ffffff1a;
+    border-radius: 31px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 6px 10px;
+    position: absolute;
+    right: 16px;
+    top: 13px
+}
+
+.purchase-form__input-button--select {
+    right: 40px
+}
+
+.purchase-form__input-button:after {
+    align-items: center;
+    background: hsla(0, 0%, 100%, .1);
+    border-radius: 50%;
+    color: #fff;
+    content: "?";
+    display: inline-flex;
+    font-size: 11.786px;
+    font-weight: 700;
+    height: 16px;
+    justify-content: center;
+    line-height: 1;
+    margin-left: 4px;
+    width: 16px
+}
+
+.purchase-form__guide .v-overlay__content {
+    max-width: 690px !important
+}
+
+.purchase-form__guide__button {
+    position: absolute;
+    right: 24px;
+    top: 24px
+}
+
+@media (max-width:767px) {
+    .purchase-form__guide__button {
+        right: 12px;
+        top: 12px
+    }
+
+    .purchase-form__guide__button svg {
+        height: 32px;
+        width: 32px
+    }
+}
+
+.purchase-form__guide__body.v-card {
+    background: #212227;
+    border-radius: 16px !important;
+    padding: 80px !important;
+    position: relative
+}
+
+@media (max-width:767px) {
+    .purchase-form__guide__body.v-card {
+        padding: 24px 16px !important
+    }
+}
+
+.purchase-form__guide__title {
+    font-size: 24px;
+    line-height: 32px;
+    padding-right: 40px
+}
+
+.purchase-form__guide__title-icon {
+    font-size: 32px;
+    line-height: 1
+}
+
+@media (max-width:767px) {
+    .purchase-form__guide__title-icon {
+        font-size: 24px;
+        line-height: 32px
+    }
+}
+
+.purchase-form__guide__subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-top: 24px
+}
+
+.purchase-form__guide__image {
+    border-radius: 24px;
+    margin-top: 24px;
+    width: 100%
+}
+
+.purchase-form__guide__description {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.34;
+    margin-top: 24px
+}
+
+.purchase-form__guide__list {
+    counter-reset: item;
+    list-style: none;
+    margin-top: 20px
+}
+
+.purchase-form__guide__list-item {
+    counter-increment: item;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.35;
+    margin-top: 12px;
+    opacity: .7
+}
+
+@media (max-width:767px) {
+    .purchase-form__guide__list-item {
+        font-size: 14px
+    }
+}
+
+.purchase-form__guide__list-item:before {
+    align-items: center;
+    border: 1px dashed hsla(0, 0%, 100%, .15);
+    border-radius: 100%;
+    content: counter(item);
+    display: inline-flex;
+    flex: none;
+    height: 24px;
+    justify-content: center;
+    margin-right: 12px;
+    opacity: .7;
+    width: 24px
+}
+
+.purchase-form__confirmation {
+    grid-column-gap: 12px;
+    display: grid;
+    flex-grow: 1;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px
+}
+
+@media (min-width:768px) and (max-width:1620px) {
+    .purchase-form__confirmation {
+        margin-left: 98px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-form__confirmation {
+        grid-column-gap: 8px;
+        margin-left: 0
+    }
+}
+
+.purchase-form__confirmation__field {
+    background-color: #ffffff0d;
+    border-radius: 8px;
+    display: grid;
+    height: 36px;
+    overflow: hidden;
+    padding: 4px 12px;
+    transition-duration: .2s;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out
+}
+
+.purchase-form__confirmation--checked .purchase-form__confirmation__field {
+    background-color: #00ff930d
+}
+
+.purchase-form__confirmation__field-title {
+    color: #ffffff80;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1.4;
+    transition-duration: .2s;
+    transition-property: color;
+    transition-timing-function: ease-in-out
+}
+
+.purchase-form__confirmation--checked .purchase-form__confirmation__field-title {
+    color: #00ff93b3
+}
+
+.purchase-form__confirmation__field-value {
+    color: #ffffffb3;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.33;
+    transition-duration: .2s;
+    transition-property: color;
+    transition-timing-function: ease-in-out
+}
+
+.purchase-form__confirmation--checked .purchase-form__confirmation__field-value {
+    color: #00ff93b3
+}
+
+.purchase-form__confirmation__field-loading {
+    height: 12px;
+    width: 12px
+}
+
+.purchase-goods {
+    background-color: #ffffff0d;
+    border-radius: 16px;
+    padding: 32px
+}
+
+@media (max-width:1620px) {
+    .purchase-goods {
+        padding: 24px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-goods {
+        padding: 16px
+    }
+}
+
+.purchase-goods__title {
+    font-size: 24px;
+    letter-spacing: -.72px;
+    line-height: .9
+}
+
+@media (max-width:767px),
+(min-width:768px) and (max-width:1620px) {
+    .purchase-goods__title {
+        font-size: 20px;
+        letter-spacing: -.6px
+    }
+}
+
+.purchase-goods__list {
+    grid-gap: 24px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 161px);
+    list-style-type: none;
+    margin: 24px 0 0;
+    padding: 0
+}
+
+@media (max-width:1620px) {
+    .purchase-goods__list {
+        grid-template-columns: repeat(4, 128px)
+    }
+}
+
+@media (min-width:768px) and (max-width:1620px) {
+    .purchase-goods__list {
+        margin-top: 20px
+    }
+}
+
+@media (max-width:1280px) {
+    .purchase-goods__list {
+        grid-template-columns: repeat(auto-fill, 155px)
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-goods__list {
+        grid-column-gap: 8px;
+        grid-template-columns: repeat(auto-fill, calc(50% - 4px) calc(50% - 4px));
+        margin-top: 16px
+    }
+}
+
+.purchase-goods__item {
+    cursor: pointer
+}
+
+.purchase-goods__item__box {
+    border: 1px solid transparent;
+    border-radius: 12px;
+    height: 161px;
+    position: relative;
+    width: 161px
+}
+
+.purchase-goods__item__box:after {
+    border: 1px solid transparent;
+    border-radius: 13px;
+    content: "";
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    position: absolute;
+    transition-duration: .2s;
+    transition-property: border-color;
+    transition-timing-function: ease-in-out
+}
+
+@media (max-width:1620px) {
+    .purchase-goods__item__box {
+        border-radius: 9.54px;
+        height: 128px;
+        width: 128px
+    }
+}
+
+@media (max-width:1280px) {
+    .purchase-goods__item__box {
+        border-radius: 11.553px;
+        height: 155px;
+        width: 155px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-goods__item__box {
+        border-radius: 12px;
+        height: auto;
+        width: auto
+    }
+}
+
+.purchase-goods__item--selected .purchase-goods__item__box:after {
+    border-color: #00ff92
+}
+
+.layout--genshin .purchase-goods__item__box {
+    background-image: linear-gradient(45deg, #2346a0, #42ddff)
+}
+
+.layout--pubg-new-state .purchase-goods__item__box {
+    background-image: linear-gradient(180deg, hsla(0, 0%, 49%, .1), rgba(71, 87, 126, .1) 75.7%, rgba(255, 225, 4, .13))
+}
+
+.layout--honkai .purchase-goods__item__box {
+    background-image: linear-gradient(225deg, #e96ffd, #7196f4)
+}
+
+.layout--arena-breakout .purchase-goods__item__box {
+    background-image: linear-gradient(180deg, #342017, #42291e)
+}
+
+.layout--nikke .purchase-goods__item__box {
+    background-image: linear-gradient(180deg, #254fba, hsla(0, 0%, 100%, .9))
+}
+
+.layout--mobile-legends .purchase-goods__item__box {
+    background-image: linear-gradient(225deg, #2238f9, #88a5ef)
+}
+
+.layout--farlight .purchase-goods__item__box {
+    background-image: linear-gradient(180deg, #191c35, #5d6182)
+}
+
+.layout--garena-free-fire .purchase-goods__item__box {
+    background-image: linear-gradient(180deg, rgba(103, 16, 143, .2), rgba(224, 148, 173, .2))
+}
+
+.layout--tower-of-fantasy .purchase-goods__item__box {
+    background-image: linear-gradient(180deg, #08b3fb, #89c7e1)
+}
+
+.layout--dragonheir .purchase-goods__item__box {
+    background-image: linear-gradient(180deg, #191c35, #45496a)
+}
+
+.layout--clash-of-clans .purchase-goods__item__box {
+    background-image: linear-gradient(90deg, hsla(0, 0%, 100%, .1) .09%, rgba(82, 20, 114, .5) 99.9%)
+}
+
+.layout--identity .purchase-goods__item__box {
+    background-image: linear-gradient(225deg, #aac5f9, #272a31)
+}
+
+.purchase-goods__item__box-mark {
+    grid-column-gap: 4px;
+    align-items: center;
+    background-color: #00ff92;
+    border-radius: 23px;
+    color: #121729;
+    display: grid;
+    font-size: 12px;
+    font-weight: 700;
+    grid-auto-flow: column;
+    left: 50%;
+    line-height: 1;
+    padding: 4px 8px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+    z-index: 2
+}
+
+@media (max-width:767px) {
+    .purchase-goods__item__box-mark {
+        grid-column-gap: 2px;
+        border-radius: 23px;
+        font-size: 10px;
+        padding: 2px 6px
+    }
+}
+
+.purchase-goods__item__box-mark.fade-enter-active,
+.purchase-goods__item__box-mark.fade-leave-active {
+    transition-duration: .2s;
+    transition-property: opacity;
+    transition-timing-function: ease-in-out
+}
+
+.purchase-goods__item__box-mark.fade-enter-from,
+.purchase-goods__item__box-mark.fade-leave-to {
+    opacity: 0
+}
+
+.purchase-goods__item__box-title {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    left: 15px;
+    line-height: 1;
+    padding-right: 0;
+    position: absolute;
+    top: 12px;
+    width: calc(100% - 30px);
+    z-index: 2
+}
+
+@media (max-width:1620px) {
+    .purchase-goods__item__box-title {
+        font-size: 15.9px;
+        left: 11.93px;
+        top: 9.54px;
+        width: calc(100% - 24px)
+    }
+}
+
+@media (max-width:1280px) {
+    .purchase-goods__item__box-title {
+        font-size: 19.255px;
+        left: 14.44px;
+        top: 11.55px;
+        width: calc(100% - 30px)
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-goods__item__box-title {
+        font-size: 20px;
+        left: 9px;
+        top: 7px;
+        width: calc(100% - 18px)
+    }
+}
+
+.purchase-goods__item__box-title--small {
+    font-size: 12px;
+    font-weight: 800
+}
+
+@media (max-width:1620px) {
+    .purchase-goods__item__box-title--small {
+        font-size: 9.54px
+    }
+}
+
+@media (max-width:1280px) {
+    .purchase-goods__item__box-title--small {
+        font-size: 11.553px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-goods__item__box-title--small {
+        font-size: 11.18px
+    }
+}
+
+.purchase-goods__item__box-cashback {
+    grid-column-gap: 1px;
+    align-items: center;
+    border-radius: 32px;
+    display: grid;
+    font-family: Jost, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    grid-auto-flow: column;
+    left: 16px;
+    line-height: 1;
+    padding: 5px 6px 5px 5px;
+    position: absolute;
+    top: 40px;
+    z-index: 2
+}
+
+@media (max-width:1620px) {
+    .purchase-goods__item__box-cashback {
+        grid-column-gap: .8px;
+        border-radius: 25.441px;
+        font-size: 9.54px;
+        left: 12.72px;
+        padding: 3.98px 4.77px 3.98px 3.98px;
+        top: 31.8px
+    }
+}
+
+@media (max-width:1280px) {
+    .purchase-goods__item__box-cashback {
+        grid-column-gap: .96px;
+        border-radius: 30.807px;
+        font-size: 13.478px;
+        left: 15.4px;
+        padding: 4.81px 5.78px 4.81px 4.81px;
+        top: 38.51px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-goods__item__box-cashback {
+        grid-column-gap: 1px;
+        border-radius: 32px;
+        font-size: 12px;
+        left: 10px;
+        padding: 5px 6px 5px 5px;
+        top: 35px
+    }
+}
+
+.purchase-goods__item__box-cashback-icon {
+    height: 16px;
+    width: 16px
+}
+
+@media (max-width:1620px) {
+    .purchase-goods__item__box-cashback-icon {
+        height: 12.72px;
+        width: 12.72px
+    }
+}
+
+@media (max-width:1280px) {
+    .purchase-goods__item__box-cashback-icon {
+        height: 15.404px;
+        width: 15.404px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-goods__item__box-cashback-icon {
+        height: 16px;
+        width: 16px
+    }
+}
+
+.layout--genshin .purchase-goods__item__box-cashback {
+    background-image: linear-gradient(270deg, #5a57f6, #d76ffc 96.09%)
+}
+
+.layout--pubg-new-state .purchase-goods__item__box-cashback {
+    background-color: #00ff9359
+}
+
+.layout--pubg .purchase-goods__item__box-cashback {
+    background-color: #ffe500;
+    color: #000
+}
+
+.layout--honkai .purchase-goods__item__box-cashback {
+    background-color: #fff;
+    color: #000
+}
+
+.layout--arena-breakout .purchase-goods__item__box-cashback {
+    background-color: #9a9a9a
+}
+
+.layout--nikke .purchase-goods__item__box-cashback {
+    background-color: #fc7a31
+}
+
+.layout--mobile-legends .purchase-goods__item__box-cashback {
+    background-color: #e5a75f;
+    color: #000
+}
+
+.layout--farlight .purchase-goods__item__box-cashback {
+    background-color: #00ff9359
+}
+
+.layout--garena-free-fire .purchase-goods__item__box-cashback {
+    background-color: #ffe500;
+    color: #000
+}
+
+.layout--clash-of-clans .purchase-goods__item__box-cashback {
+    background-color: #95d249;
+    color: #000
+}
+
+.layout--clash-royale .purchase-goods__item__box-cashback {
+    background-color: #7de8ff;
+    color: #000
+}
+
+.layout--identity .purchase-goods__item__box-cashback {
+    background-color: #ab2730
+}
+
+.purchase-goods__item__box-image {
+    border-radius: 12px;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    z-index: 1
+}
+
+.purchase-goods__item__title {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -.48px;
+    line-height: 1.2;
+    margin-top: 12px
+}
+
+@media (max-width:1620px) {
+    .purchase-goods__item__title {
+        letter-spacing: -.42px
+    }
+}
+
+@media (max-width:1280px) {
+    .purchase-goods__item__title {
+        font-size: 14px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-goods__item__title {
+        margin-top: 8px
+    }
+}
+
+.purchase-goods__item__row {
+    grid-column-gap: 12px;
+    align-items: end;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    margin-top: 4px
+}
+
+@media (max-width:767px) {
+    .purchase-goods__item__row {
+        grid-column-gap: 8px
+    }
+}
+
+.purchase-goods__item__coins {
+    grid-column-gap: 2px;
+    align-items: center;
+    color: #ffe500;
+    display: grid;
+    font-family: Jost, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    grid-auto-flow: column;
+    line-height: 1
+}
+
+@media (max-width:1620px) {
+    .purchase-goods__item__coins {
+        font-size: 18px
+    }
+}
+
+@media (max-width:767px) {
+    .purchase-goods__item__coins {
+        font-size: 16px
+    }
+}
+
+.purchase-goods__item__coins-icon {
+    height: 18px;
+    width: 18px
+}
+
+.purchase-goods__item__price {
+    color: #ffffffb3;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1
+}
+
+@media (max-width:1620px) {
+    .purchase-goods__item__price {
+        font-size: 14px
+    }
+}

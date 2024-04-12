@@ -1,0 +1,109 @@
+[data-v-2ff08346] .login .modal-content,
+[data-v-2ff08346] .register .modal-content,
+[data-v-2ff08346] .restore .modal-content {
+    min-height: 380px;
+    padding: 65px;
+    width: 450px
+}
+
+[data-v-2ff08346] .api .modal-content {
+    max-width: 450px
+}
+
+[data-v-2ff08346] .policy,
+[data-v-2ff08346] .terms {
+    align-items: flex-end
+}
+
+[data-v-2ff08346] .policy .modal-scroll,
+[data-v-2ff08346] .terms .modal-scroll {
+    height: 100%;
+    padding-top: 100px;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    scrollbar-width: none
+}
+
+[data-v-2ff08346] .policy .modal-scroll::-webkit-scrollbar,
+[data-v-2ff08346] .terms .modal-scroll::-webkit-scrollbar {
+    display: none
+}
+
+[data-v-2ff08346] .policy .modal-scroll .modal-content,
+[data-v-2ff08346] .terms .modal-scroll .modal-content {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+@media (max-width:610px) {
+    [data-v-2ff08346] .contest .modal-scroll {
+        margin-top: 220px
+    }
+}
+
+.success_overflow[data-v-2ff08346] {
+    background-color: #00000080;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute
+}
+
+.success_container[data-v-2ff08346] {
+    background: #2d2a70;
+    border-radius: 10px;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+    z-index: 999
+}
+
+@media (max-width:610px) {
+    [data-v-2ff08346] .register .modal-content {
+        max-width: 90vw;
+        padding: 36px 16px
+    }
+}
+
+.auth-content h1 {
+    margin-bottom: 28px
+}
+
+.auth-content .modal_input {
+    margin-top: 24px;
+    text-align: left
+}
+
+.auth-content .modal_input label {
+    margin-bottom: 8px
+}
+
+.auth-content .checkbox {
+    margin-top: 12px
+}
+
+.auth-content .register-btn {
+    margin-top: 24px
+}
+
+.google-auth-button {
+    margin-top: 8px;
+    white-space: nowrap;
+    width: 100%
+}
+
+.google-auth-button_content {
+    display: flex;
+    font-size: 16px;
+    line-height: 31px
+}
+
+.google-auth-button img {
+    height: 31px;
+    margin-left: 16px;
+    width: 31px
+}

@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.faq-block[data-v-6c9af2b7] {
+    margin-top: 36px
+}
+
+@media (max-width:1281px) {
+    .faq-block[data-v-6c9af2b7] {
+        margin-top: 30px
+    }
+}
+
+@media (max-width:768px) {
+    .faq-block[data-v-6c9af2b7] {
+        margin-top: 24px
+    }
+}
+
+.faq-banner-img[data-v-6c9af2b7],
+.faq-banner-img-mini[data-v-6c9af2b7] {
+    height: 100%;
+    width: 100%
+}
+
+.faq-banner-img-mini[data-v-6c9af2b7] {
+    display: none
+}
+
+.questions-block[data-v-6c9af2b7] {
+    display: flex;
+    gap: 24px
+}
+
+@media (max-width:1620px) {
+    .questions-block[data-v-6c9af2b7] {
+        flex-direction: column-reverse;
+        gap: 20px
+    }
+}
+
+@media (max-width:767px) {
+    .questions-block[data-v-6c9af2b7] {
+        flex-direction: column
+    }
+}
+
+.questions-block__question-img[data-v-6c9af2b7] {
+    height: 415px;
+    min-height: 415px;
+    min-width: 372px;
+    width: 372px
+}
+
+@media (max-width:1620px) {
+    .questions-block__question-img[data-v-6c9af2b7] {
+        height: 337px;
+        min-height: 337px;
+        min-width: 302px;
+        width: 302px
+    }
+}
+
+@media (max-width:1281px) {
+    .questions-block__question-img[data-v-6c9af2b7] {
+        background: #0c0b37;
+        display: flex;
+        min-width: 100%;
+        width: 100%
+    }
+
+    .questions-block__question-img .faq-banner-img[data-v-6c9af2b7] {
+        display: none;
+        width: auto
+    }
+
+    .questions-block__question-img .faq-banner-img-mini[data-v-6c9af2b7] {
+        display: block
+    }
+}
+
+@media (max-width:575px) {
+    .questions-block__question-img[data-v-6c9af2b7] {
+        background: none;
+        height: auto
+    }
+
+    .questions-block__question-img .faq-banner-img[data-v-6c9af2b7] {
+        display: block;
+        height: auto;
+        width: 100%
+    }
+
+    .questions-block__question-img .faq-banner-img-mini[data-v-6c9af2b7] {
+        display: none
+    }
+}
+
+.questions-block__question-text-block[data-v-6c9af2b7] {
+    width: 768px
+}
+
+@media (max-width:1620px) {
+    .questions-block__question-text-block[data-v-6c9af2b7] {
+        padding-right: 0;
+        width: 620px
+    }
+}
+
+@media (max-width:1280px) {
+    .questions-block__question-text-block[data-v-6c9af2b7] {
+        padding-right: 0;
+        width: 100%
+    }
+}
+
+.questions-block__question-text-block__title[data-v-6c9af2b7] {
+    color: #fff;
+    font-family: "Geologica", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    line-height: 90.8%
+}

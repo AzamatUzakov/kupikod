@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kupikod – покупка, пополнение игр и сервисов</title>
+  <script async="" src="./js/tag.js"></script>
+ 
+  <script defer="" src="./js/contact-widget.js"
+    id="hde-contact-widget" data-assets-host="//cdn5.helpdeskeddy.com/" data-host="kupikodtest.helpdeskeddy.com"
+    data-lang="ru"></script>
+  <script src="./js/contact-widget-config.js"
+    id="hde-contact-widget-config" defer=""></script>
+ 
+ 
+  
+ 
+ 
+  <link rel="stylesheet" href="./css/entry.4b8d8e79.css">
+  <link rel="modulepreload" as="script" crossorigin=""
+    href="./js/entry.ba95563b.js">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/YT-icon.c8fedaff.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/twitch-icon.3ad4bd13.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-gift-line.8038b851.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-gift-cards.1c455de7.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-skins-guns.32f23246.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-codes-cards.ea36c931.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-genshin-box.8a8b18b8.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-genshin-paymon.a557750c.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-consoles-1.d77201ec.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-consoles-2.436b94e8.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-clash-persons.beb6f470.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-clash-line.fa2144f3.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-steam-line-2.d543b103.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-steam-pet.6621b9b6.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/block-steam-line-1.df301517.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="./img/footer-person.90988a07.webp">
+  <link rel="prefetch" as="image" type="image/svg+xml"
+    href="https://kupikod.com/_nuxt/jost-v14-cyrillic_latin-500.5a047925.svg">
+  <link rel="prefetch" as="image" type="image/webp" href="https://kupikod.com/_nuxt/bg-desktop.3bcb43a0.webp">
+  <link rel="prefetch" as="image" type="image/webp" href="https://kupikod.com/_nuxt/section-bonus-bg.f5ec9a6a.webp">
+  <link rel="prefetch" as="image" type="image/webp"
+    href="https://kupikod.com/_nuxt/section-bonus-bg-tablet.5fca5164.webp">
+
+    <link rel="stylesheet" href="./css/page.css">
+</head>
+
+<body>
+  <div class="widget" data-v-57a3a290="">
+    <div class="widget_container" data-v-57a3a290="">
+      <div class="widget_logo" data-v-57a3a290=""><a href="./index.html" data-v-57a3a290=""><img
+            src="data:image/webp;base64,UklGRm4FAABXRUJQVlA4WAoAAAAQAAAAFAEAGwAAQUxQSNECAAABkJftb9hGgmAIghAIgRAGMYOFQcygZuAx6BgYQiAYgiF4d9dK+inu/R0REAS4bdscknS3AEwv9QdD0EqKQpUs9Uh/JRlJZFQSjFUiWgesXiO/W2bJzj8vTXARSdNjDEv89XF1U66rbPRXpmywSTvcJEdtoZtw0ekANiGvnB3J1U4DmEmURX4yTcwoOPCEEF9ww6yAm4TYxY1eA03NKDDwhGzd4eiwC7hoBzhFd5locsaBAk2IX7jdlbGbeShVzU9HASeEm1MydqWzjXCJzjb6AMYKAk5I9UpWXRlVwXgQ/QiyC6HaJiT6RYuujGhgEQ8YF9MsRIuOJvADYpsQ29ueo6Lc5DcqXxEzqfMlmvoONA2wSRBoQlge82BKJoZRs4EmFxH1IJqI5mG1aGue7OYJ2eRzs0lZPPqpoCZlQjH8yf/Bp6EJyeJ5zUaQBruooCZFWP6TK30QEQSakG/xcPguuzEd7E0VO2nik+mDaAHjvOTNZi8iOxThQRKx6mKMPBeJTNjvnxSe0p3bfNhzQztBtSKF+PGkkSejb/cV4cFTBsgNnS1XA1rY5EhjX8Y4RQ7PIrIKahLq6VRZgfk1XNhtfjwDeTPOu4pQQU0aBhN5BNFTizqrXGBwopeVyImubL97ilABTbJhLzqU3Np1lbaIKUtbhiykwVYRkRdt0ZZwbilCo1bQpEYNhiUkpTE3sQpZhaKlZ1sb3H2LYD+TGvl1twYeyYtEk1HDizNlJeWeItjRpO7ZlFvU5cNFk5FtO+npu5Bz0Rt+JrVVeSC36wpb48lI1h3k8fYjTkUIuJlUFrLMueXSKk4NNBVdOZnFLubj18fTpQgcPY18P4HkljdTx+gH0RwYJ8R68kkNLCKp2XxMmheyoL/IqSFhAs2CPCEO/3E6wCIMeJgsLzps/RRJKWgbaku5qMopLnbfHgTJ5L+I+S2tyaAcmPEi7NkKaJIAAFZQOCB2AgAAkBEAnQEqFQEcAD6JQJdHpSSiISnYv1igEQlsANU9tP5L+FfYxU/5x+Of44dELrp3eygPlQ+6fbn7s/5B0gH6K9IDzAfyL/Vf4r+S+7v/M/7X/APJA+QD+Vf770ZvYA9AD+Af0D0ov16+Ab9sf259oL//gM8k4wVpMi5Z1wQLsipBniWhq+dhw6c9Cd0HEE/in9TcLIAA/utj8e1RdgKzxPZbaO0rV5wv5PdcD32/K+PgERpYgH8u+XVHvJJb5rEf9jOfqfHKwnN6NthRFmL1yIQ/7jlFDUeosrEv/4IRN0qSgbnTaGZAdqa1g7D4eiPAk5rJVh+4VvpeQ3oR1EqtIEdRLKjJrkov3c6lUFzkSK6zxDUj1LNn7ia87MhreP0RMi05kKvx6pcrM4wgBkCO7yT4RcpqfjKGmE0Rx7ZDUIyQgrJ4MYxO+vRJs0cvpjutcxTlP/QL/hxU+310JtAakVGVIug80KCQeMxvZdn0PypvkOjZlaWgUArnYgdoTZ8ea1+ZlclfO26WFGoQXYNsboggQ+hjzLG/vGQvwZPveQvE1JzwkrJqUQ6KmhNvYb3ZfxeUPdycUo9G9do32ZfupQC6H9uRwHtcY/vG3BPQy/W7rIhfzVkRfxz73zPakIVEKxjztFP3IgitGN40oYs72dzUYNddlyRc5a8C3IJApkyQRAIqjHHThMtTdlKqdI3EBcnTgTR6IPwBnEiwsSsF+LKdSeYKVwwFZI/Ttj2P8Xqzg0BF7bNTLfzoaPW1k9X4t7HEhbWWT4qX1cpuRRXcxXR8lylhnrVr5eHgGgraf8Pp+Y+kRHPNJBWtmDH1AMW24QCoAAAA"
+            alt="logo" data-v-57a3a290="">
+          <div class="widget_title" data-v-57a3a290="">Xizmatlarni to'ldirish</div>
+        </a></div>
+      <div class="show widget_items" data-v-57a3a290=""><!--[--><!--[--><a target="_blank"
+          href="/replenshment/index.html" class="widget_balance widget_item widget-item"
+          data-v-57a3a290="">
+          <div class="widget-item_img" data-v-57a3a290="">
+            <div class="widget-item_img-box" data-v-57a3a290=""><img class="img"
+                src="data:image/webp;base64,UklGRmIBAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSAIBAAABgFTbbtjoQxAEQTAEQwgEMxgziBk0DFwGhSAIgSAIgvAXSVt5dt1FxATg96h9nk7S7bHpOunGz191UXV+P3XFzlQveTuTo2Qp0z1r5nFLigUzif/OFxxJY0FJkkibyC6R5JKG4ikmyN4BfX4XHUBPih2A9vOTsE0AsZlkfOCq2zjmnEevAgDqbEmN9IavZQ9Sk2AkrX0me5AcyBYnSZ+tCgDduvE6kC9PJkYHJMkAVPsmhgA6kuJUADrsXby6ACh+JBldcVvq1raiuP0jW1IlOfXycTXSkT1IctZPpBvJ0DQMXsMevbXW58lrFCxszu9NsbadX1jF+tJfZ5D082iCHzxWUDggOgAAAHAEAJ0BKjAAMAA+cSiPR6SioSE8YJAOCWkAAKSw5M9SDEvVPCRiapZBOM0oAP7+hvY//8OkAAAAAAA="
+                alt="Пополняй Steam" data-v-57a3a290="">
+              <div class="widget-item_img-sub" data-v-57a3a290=""><img class="img"
+                  src="data:image/webp;base64,UklGRnYBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSCkBAAABgE5rexjpQfgQPoQiBGEQglCDqcHUIGOwaxCEInwIH8L7Y9KkCBExAUxabVdK2Vs1Htxaarb5in20/J7z0IPhE1vq0fAbT61GpCSFDyw0n4cBJSSF/TTNxwbmwCHpA7gWC94z4g1dkkNb+MdjB792iqQT12LlbAAWRkhpdaXQyw9XoUuqfwsBf69BH7VrwWHvPx4Qkq6YOwCuv+J7vqiSlNQ+0RnuV/SCxY8A/8YgfTT0S3dgNdTPwr2Xd2qYA2CjvnxkTZPXHXiN908Jzbat3IFngY/mqymq33Ae3rVodCmb31UtNiiSFBTAw9uKA6ck7Vtvn9xdiweAhaSs9qrmsRAMPSWpH0fXYviILfVoOPceT4Qza+faaSz6dypP50Gv3yulvFo1JgEAVlA4ICYAAADQAgCdASogACAAPpFEnUqlo6KhqAgAsBIJaQAAPaOgAP74TQAAAA=="
+                  alt="sub image" data-v-57a3a290=""></div>
+            </div>
+          </div>
+          <div class="widget-item_text" data-v-57a3a290="">
+            <div class="widget-item_name" data-v-57a3a290="">Steam-ni to'ldiring</div>
+            <div class="widget-item_description" data-v-57a3a290="">0% dan komissiya</div>
+          </div>
+        </a><!--]--><!--[--><a href="/mobile game/index.html" rel="noopener noreferrer"
+          class="widget_item widget-item" data-v-57a3a290="">
+          <div class="widget-item_img" data-v-57a3a290="">
+            <div class="widget-item_img-box" data-v-57a3a290=""><img class="img"
+                src="data:image/webp;base64,UklGRtgBAABXRUJQVlA4WAoAAAAQAAAALAAALAAAQUxQSGsBAAABcFXbbhVFQiVUQiUgoQ6og8FBcQAOwAESKgEJlYCErDUkN5nnd0Qwcts2jOMcm2qZt0fQ365QN1AZKi6IJ2rNjOpKiL1Dnq61M6YJWgvjcoqbUuUXpLZzMfMilPmpWYE5ReVGGzXuSl7hJZ/P7uKCl0WNeRPnuMc3KJQpyAmRXhCux90TvaAIlcR0mKxm6spKasJBmAMqXTdFxenqAWgQVLPJvKB09Qj3phaHfN4kZyCS0zMZwbwGMmpV3Nl41tjYeD4cmWKli5JYyx7IUbnNZrpGPd+hYSAzXVXMKK7emKvEUh02MSORS+JzEy8Hv8VmzcfpEZvBCVjvrbziw0iAOFBdGoUWMwEnP+1u5molYBIsnta2EjALe7pHcUAnoGRoT4N7riJfuM8D2k0Dv87Olo0vNMI7qjX/AF8o4MHjC36QkVGqAY+64+bfHDSRLB+KZmcuHhqyDGiG5KIx/DKNyfMijYen+Wn+ehEAVlA4IEYAAADQAwCdASotAC0APok4lkelI6IhMcgAoBEJaQAAiuDelsvJtxPHWgAA/vj0Qsf/OQdv+V2g+5un//5glH+trv7G///I2wAA"
+                alt="Мобильные игры" data-v-57a3a290="">
+              <div class="widget-item_img-sub" data-v-57a3a290=""><img class="img"
+                  src="data:image/webp;base64,UklGRi4BAABXRUJQVlA4WAoAAAAQAAAAIAAAHwAAQUxQSFwAAAABf2CQbaQ7gq/Bvz/nQ0RExt/OAdjU2rYEt4kIFGBj9i8LOYhEIyK4u/06MUb0fwIEXm0AAA9rOt8uRnZ+FiKq+Tp1VI+wUMMf1CJMVP5VSihn+/AFzDB9iziMAVZQOCCsAAAAMAUAnQEqIQAgAD6RPppIJaOioSq4DACwEglpAMzRi+HKMPX4eGOsYAyk0d6yTgISDAAA/v6gI/8Ing7TynbleexaGP76r+Ja1qEPy895Ogs7Sl3LF9nS/PC7qnQqBi676fs2LJS+K2S8//wD9WHDf3fF/VJBSpec3o2eE1bBWmRrlboVyI3zTu79kJiE5j1+sU6mzeJ61xBvDDxGx/Y4waGzCqYCLSA9iZgAAA=="
+                  alt="sub image" data-v-57a3a290=""></div>
+            </div>
+          </div>
+          <div class="widget-item_text" data-v-57a3a290="">
+            <div class="widget-item_name" data-v-57a3a290="">Mobil oyinlar</div>
+            <div class="widget-item_description" data-v-57a3a290="">Valyutangizni to'ldiring</div>
+          </div>
+        </a><!--]--><!--[--><a href="/gift/index.html"
+          rel="noopener noreferrer" class="widget_item widget-item" data-v-57a3a290="">
+          <div class="widget-item_img" data-v-57a3a290="">
+            <div class="widget-item_img-box" data-v-57a3a290=""><img class="img"
+                src="data:image/webp;base64,UklGRkQBAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSOIAAAABgFTbbt3qQjAEQTCEQAiEQCgEMWgYKBDKwBAMQRAMQQNL/mT23igiJgD/R9OnNFvcyrUiq21VmsrNNrc8QWrbNY2JucrPnLA69h0i8xmYA9izY0R2ECS4B5LtGG0puhxC+EQC6gTU2RWJg5gjBjoGHInUEeYDYGaNlKVTFkcDspgBmxZWi5N37gF44PR4QEBzBBn4eM/AdvHKe35efU/19D3q2XvbikqYpDpkC2rCdKpblLCQ2o4TS485jRiL70i9GiiW16B4t6e0jtS7PWqdEjZm7Rp5yKVZIWylYq1k/AkCVlA4IDwAAACwAwCdASowADAAPoEylEelIyIhNUgAoBAJaQAAw59YP9e4JjzwAAD9Mf//0BXoyeS6T///5+hv/o7wAAA="
+                alt="Покупай гифты" data-v-57a3a290="">
+              <div class="widget-item_img-sub" data-v-57a3a290=""><img class="img"
+                  src="data:image/webp;base64,UklGRvIAAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSJQAAAABcE1tW2V9CCGEEEIIIfwIgzIGZbDHIIQQfoQQvou/0z7dR8QE4IeGMAvhhK+kJhOVVL+XaSOQaJ89HaiDDnSvDngJh3VPRs9rJHu4B9oGN06Kctov7LoktqjmrK2IjX4hdU4zUDjtcdZ4hm3GU/wdekpnPsk0AlHmbvYLheMMFI7l76W1cCKsoe5VbLrS1/rtdv44VlA4IDgAAABQAwCdASogACAAPpE6mEelo6KhMAgAsBIJaQAAcby+xpOvAAD+77j//th//7XY//7V4j/huAAAAA=="
+                  alt="sub image" data-v-57a3a290=""></div>
+            </div>
+          </div>
+          <div class="widget-item_text" data-v-57a3a290="">
+            <div class="widget-item_name" data-v-57a3a290="">Giftlarni Sovg'alarni sotib oling</div>
+            <div class="widget-item_description" data-v-57a3a290="">Rossiya Federatsiyasi yo'q giftlar mavjud</div>
+          </div>
+        </a><!--]--><!--[--><a target="_blank" href="/key/index.html"
+          class="widget_codes widget_item widget-item" data-v-57a3a290="">
+          <div class="widget-item_img" data-v-57a3a290="">
+            <div class="widget-item_img-box" data-v-57a3a290=""><img class="img"
+                src="data:image/webp;base64,UklGRkQBAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSOIAAAABgFTbbt3qQjAEQTCEQAiEQCgEMWgYKBDKwBAMQRAMQQNL/mT23igiJgD/R9OnNFvcyrUiq21VmsrNNrc8QWrbNY2JucrPnLA69h0i8xmYA9izY0R2ECS4B5LtGG0puhxC+EQC6gTU2RWJg5gjBjoGHInUEeYDYGaNlKVTFkcDspgBmxZWi5N37gF44PR4QEBzBBn4eM/AdvHKe35efU/19D3q2XvbikqYpDpkC2rCdKpblLCQ2o4TS485jRiL70i9GiiW16B4t6e0jtS7PWqdEjZm7Rp5yKVZIWylYq1k/AkCVlA4IDwAAACwAwCdASowADAAPoEylEelIyIhNUgAoBAJaQAAw59YP9e4JjzwAAD9Mf//0BXoyeS6T///5+hv/o7wAAA="
+                alt="Покупай ключи" data-v-57a3a290="">
+              <div class="widget-item_img-sub" data-v-57a3a290=""><img class="img"
+                  src="data:image/webp;base64,UklGRgABAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSKUAAAABZ2CQbeTkHcGGcAiP8BER0aeUm8JtbNuq8j6a/gyXmIgCKOYXgBXwMhpwJ6MBDd3tdPXfeRdpIKL/jNy2jcTuo9s8Q/10eGXJDdIJLZ5R6UREOlGW+h0RoddRlvodUq9rn9t/TxrWvgYAW/fgmyruZwPC1PMvU0qZowiTJk0yJXOyIQcCefv4c52UiPs2FRSNqynI6vQbLGMGYBO2yXfek5j611AAVlA4IDQAAADwAgCdASogACAAPn0wkkekoyGhN+gAkA+JaQAA2VKwAAD9Mf//0cOP+dJI/2u3//0XYAAA"
+                  alt="sub image" data-v-57a3a290=""></div>
+            </div>
+          </div>
+          <div class="widget-item_text" data-v-57a3a290="">
+            <div class="widget-item_name" data-v-57a3a290="">Kalitlar va obunalarni</div>
+            <div class="widget-item_description" data-v-57a3a290="">sotib oling</div>
+          </div>
+        </a><!--]--><!--]--></div>
+    </div><!---->
+  </div><!--teleport anchor-->
+  <div id="__nuxt"><!--[-->
+    <div>
+      <div class="main" data-v-34e305b7="">
+        <div class="layout" data-v-34e305b7=""><!--teleport start--><!--teleport end--><!--[-->
+          <div id="section-title" class="section-title" data-v-34e305b7="" data-v-7c9632e6="">
+            <h1 class="section-title__title" data-v-7c9632e6=""> O'yinlarni bosh og'rig'siz sotib oling va to'ldiring</h1>
+            <div class="section-title__description" data-v-7c9632e6=""> O'yinlar, obunalar Rossiya Federatsiyasi va boshqa mamlakatlar uchun </div>
+            <div class="container" data-v-7c9632e6="">
+              <div class="section-title__grid" data-v-7c9632e6=""><a
+                  href="../key/KupiKod - магазин цифровых товаров.html" target="_blank" class="block-10k-games"
+                  data-v-7c9632e6="" data-v-593eb48c=""><svg class="block-10k-games__bg-figure" width="554" height="544"
+                    viewBox="0 0 554 544" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-593eb48c="">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M111.907 272L0 207.371L82.4819 64.6294L194.454 129.147L194.517 0H359.483L359.546 129.147L471.517 64.6294L554 207.371L442.092 272L554 336.629L471.517 479.371L359.546 414.853L359.483 544H194.517L194.454 414.853L82.4819 479.371L0 336.629L111.907 272Z"
+                      fill="#00FF92" fill-opacity="0.05" data-v-593eb48c=""></path>
+                  </svg>
+                  <div class="block-10k-games__description" data-v-593eb48c=""> Sizni zeriktirmaslik uchun biz jarayonni osonroq va qulayroq qilishga intilamiz. </div>
+                  <div class="block-10k-games__title" data-v-593eb48c=""> 10 000+ o'yinlar<span data-v-593eb48c="">Kupikod katalogida</span></div><svg class="block-10k-games__arrow" width="20" height="20" viewBox="0 0 20 20"
+                    fill="none" xmlns="http://www.w3.org/2000/svg" data-v-593eb48c="">
+                    <path opacity="0.5" d="M2 18L18 2M18 2H2M18 2V18" stroke="white" stroke-width="2.5"
+                      stroke-linecap="round" stroke-linejoin="round" data-v-593eb48c=""></path>
+                  </svg>
+                </a><a href="#" target="_blank"
+                  class="block-read" data-v-7c9632e6="" data-v-79f4e56f="">
+                  <div class="block-read__container" data-v-79f4e56f=""><svg class="block-read__figure" width="289"
+                      height="289" viewBox="0 0 289 289" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      data-v-79f4e56f="">
+                      <path d="M0 0H96.3338V96.3338H192.666V192.666H289V289H0V0Z" fill="white" fill-opacity="0.05"
+                        data-v-79f4e56f=""></path>
+                    </svg><svg class="block-read__arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                      xmlns="http://www.w3.org/2000/svg" data-v-79f4e56f="">
+                      <path opacity="0.5" d="M1 17L17 1M17 1H1M17 1V17" stroke="white" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" data-v-79f4e56f=""></path>
+                    </svg>
+                    <div class="regular-users" data-v-79f4e56f="">
+                      <div data-v-79f4e56f="">400 000 +<img
+                          src="data:image/webp;base64,UklGRsYFAABXRUJQVlA4WAoAAAAQAAAAQwAAJwAAQUxQSIQBAAABkHPb1tpG795PVuIuMMxMHfbh/IakGrdTMVY8U4bTcjnMzMw8pRSqDX/gDcif1/LTmjoiJkDKgnRB2H7w2lRBtfj9dk/3+p1Hx9/Mqmrp7f1jHVtaT53/MaOq08+Hu5ZmazKBAwDxBUg3/2RevUsl9Z5T/8nObJghIb4AXEOfVveTjWFAAl7cm9eq7w8DRy/2qcV4nSOAJNQ/UpvxOkdIIvBJrcZrHZHUq3ajeUnYpZbHCIjIqsiUtvCfEbUdNVBklVrfA8iIuc+EROa0GU1q/wSPp8AjXEqBPD+lgK7Op0Gz/jfkUyFKg62X0oB7UuAxm1KgF5K31wI5bi6iSJ25HESk11hEQKQ+bytHiIjsMTXmkCC9huJ5hCTikZl4nYOUqf9kJF5PegC9Jr6sDyi+YC6qvoEFAcUfXDtWZU86woBABaBbNxb7lSqY8ytc66zNBI6QCgG6IOw4fe1rQbU4fedk94adu8fezKrq7K+L59q2tB6++6OoqtM3hruWZGvCgEQZVlA4IBwEAADwEwCdASpEACgAPpFCmkolo6IhpnVcqLASCWgMpJEOPYW3egdpTHulS22PmA84DTiI/R+zSODbr464h9KtjV9GPPv9XewV/Iv6l/w+xF6AH6NGpgPhvnXX6fuIJ4/TkRw3a72Xk/fAq3ljITZMyYIJuZyP6wYQxBe717toaLSei0GVQ3+TBbU7WyxRaDoUWkdVWSumW0RDlDlSRCPNIPK4yY2TqLi3S8AA/vlziPuh5CYHoZlVdwd9+cvkuXZ9BahVlIj8pqkx3SHRyBpwF0XSxoZ+lTfP4L7Ovw/gssRnVftPPkLZErAlC05G47OQDSuRWCEqBmWsat290VRCLsfSrYsiF7XMbHl8u1IMp4a8L2EgS4bfhK55sUiJfLXMpMx7NiwabfA7+Rp62TlVGj4q3h8DjPJ9irGhyZ4VKhH9OXQTy9FUz6IlooZj1N+uzxvy8MYPDwU/G0ZFtrBhp1afgobJNGC6L81y7/siTqaACVLSvS6IgfZco4jJyd+NGHrExW3TnkvlGI5NENjt20RfUYfbFF3MMas4NPP+nbkrJXT7uT/eyT8Pj8lBgVP0KELLtukk2Jcyd1RkQN47Or8cldLO3DS8UBSTmV8EqTzOmA+QrfKcN/U8+/ZQ695/wa/m5a9n/WP4UbS5/debOznvifWrQfU/x7+q1HeAn5KM/Xb4Z07hTfWxjZH3ie5fLZHqJbtj3+vpcbda8P6Qduo4MsqDRT+6Ameju8c7+HtEu9weQ9Lv7aO6R6L4+rvP/zyrVz4d8FNVaBLRMTU5QpGZgN68l7RwoNEY53D8eGbUaQR7JlARQ9Zf0evpfk4Wzze9BMYH/ACztzbG9f0goJqMLMAM1HnLRWLu+nnV+YYQGcm0quk7j5+LP86zhzb1qwDa1ZMEhPhmMQCNZ2pTz+fZ494aW+RcBq3ptvV3fRY2QSQdelb6lK3u/Ks/OmTwpN41X8V2h4fUEeKaOMvhLq/sUOJ101cvXy7Pd7pTNmrBaJfWgl2jlegzmuN0K0br8s42O7bFv1ua7/hzyMX13AtOP7fgR2ef8SvG9fYiFPDhHkNzCdfolr3+DO/aV3PWVvP6U9BmlUhskz/sHSyvzv4iZKps19/J8gVZb79jAZG0wvreboz+2CMRfJkCqYm22d6Qhc1ledmNCtZh+nIzYQf851F281kaj4tWrJup4BvfvEMs15Eqpg9wI28aIzJFF2QN2qeF6AmFo1vtdqjZGT2gQau63WjPtuuu42sTY09HIi6B5E663KndcWGwIkSWzoFdM6dkHWo3o+GqLyaYKzageh7z3JKPFZws8x027QUvhFOy+Z3H+YfeNpu8fkwEwnnezvriJhEJZ496jYvJNakr/YRlQL40aN9fybJNKBVNHqTfPhrj5BfDvHQAAA=="
+                          data-v-79f4e56f=""></div>
+                      <div data-v-79f4e56f=""><span data-v-79f4e56f="">Регулярных юзеров</span></div>
+                    </div>
+                    <div class="block-read__text" data-v-79f4e56f="">Почитай отзывы</div>
+                  </div>
+                </a>
+                <div class="block-blog section-title__300-blogers--desktop" data-v-7c9632e6="" data-v-901ce72e="">
+                  <div class="block-blog__mobile_bg" data-v-901ce72e=""></div><svg class="block-blog__bg" width="233"
+                    height="282" viewBox="0 0 233 282" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    data-v-901ce72e="">
+                    <path
+                      d="M32 0H201C218.673 0 233 14.3269 233 32V109C233 126.673 218.673 141 201 141C218.673 141 233 155.327 233 173V250C233 267.673 218.673 282 201 282H32C14.3269 282 0 267.673 0 250V173C0 155.327 14.3269 141 32 141C14.3269 141 0 126.673 0 109V32C0 14.3269 14.3269 0 32 0Z"
+                      fill="url(#paint0_linear_315_1711)" fill-opacity="0.9" data-v-901ce72e=""></path>
+                    <defs data-v-901ce72e="">
+                      <lineargradient id="paint0_linear_315_1711" x1="116.5" y1="0" x2="116.5" y2="282"
+                        gradientUnits="userSpaceOnUse" data-v-901ce72e="">
+                        <stop stop-color="#00FF92" data-v-901ce72e=""></stop>
+                        <stop offset="0.9999" stop-color="#13C9C6" data-v-901ce72e=""></stop>
+                        <stop offset="1" stop-color="#278EFF" data-v-901ce72e=""></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg><img class="block-blog__youtube"
+                    src="./img/YT-icon.c8fedaff.webp" alt=""
+                    data-v-901ce72e=""><img class="block-blog__twitch"
+                    src="./img/twitch-icon.3ad4bd13.webp" alt=""
+                    data-v-901ce72e="">
+                  <div class="block-blog__text" data-v-901ce72e="">
+                    <div class="block-blog__count" data-v-901ce72e="">300+</div>
+                    <div class="block-blog__description" data-v-901ce72e=""> Блогеров говорят о нас каждый день </div>
+                  </div>
+                </div>
+                <div class="block-read-us section-title__read-us" data-v-7c9632e6="" data-v-9b8cf016=""><svg
+                    class="block-read-us__stairs" width="377" height="453" viewBox="0 0 377 453" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" data-v-9b8cf016="">
+                    <path d="M377 0H251.333V151.001H125.667V301.999H-1.29938e-05V453H377V0Z" fill="white"
+                      fill-opacity="0.05" data-v-9b8cf016=""></path>
+                  </svg>
+                  <div class="block-read-us__header" data-v-9b8cf016="">Читай нас в соцсетях:</div>
+                  <div class="block-blog block-read-us__blogers" data-v-9b8cf016="" data-v-901ce72e="">
+                    <div class="block-blog__mobile_bg" data-v-901ce72e=""></div><svg class="block-blog__bg" width="233"
+                      height="282" viewBox="0 0 233 282" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      data-v-901ce72e="">
+                      <path
+                        d="M32 0H201C218.673 0 233 14.3269 233 32V109C233 126.673 218.673 141 201 141C218.673 141 233 155.327 233 173V250C233 267.673 218.673 282 201 282H32C14.3269 282 0 267.673 0 250V173C0 155.327 14.3269 141 32 141C14.3269 141 0 126.673 0 109V32C0 14.3269 14.3269 0 32 0Z"
+                        fill="url(#paint0_linear_315_1711)" fill-opacity="0.9" data-v-901ce72e=""></path>
+                      <defs data-v-901ce72e="">
+                        <lineargradient id="paint0_linear_315_1711" x1="116.5" y1="0" x2="116.5" y2="282"
+                          gradientUnits="userSpaceOnUse" data-v-901ce72e="">
+                          <stop stop-color="#00FF92" data-v-901ce72e=""></stop>
+                          <stop offset="0.9999" stop-color="#13C9C6" data-v-901ce72e=""></stop>
+                          <stop offset="1" stop-color="#278EFF" data-v-901ce72e=""></stop>
+                        </lineargradient>
+                      </defs>
+                    </svg><img class="block-blog__youtube"
+                      src="./img/YT-icon.c8fedaff.webp" alt=""
+                      data-v-901ce72e=""><img class="block-blog__twitch"
+                      src="./img/twitch-icon.3ad4bd13.webp" alt=""
+                      data-v-901ce72e="">
+                    <div class="block-blog__text" data-v-901ce72e="">
+                      <div class="block-blog__count" data-v-901ce72e="">300+</div>
+                      <div class="block-blog__description" data-v-901ce72e=""> Блогеров говорят о нас каждый день </div>
+                    </div>
+                  </div>
+                  <div class="block-read-us__content content" data-v-9b8cf016="">
+                    <div class="content__arrows" data-v-9b8cf016="">
+                      <div class="content__arrow content__arrow--back" data-v-9b8cf016=""><svg width="24" height="24"
+                          viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-9b8cf016="">
+                          <g opacity="0.2" clip-path="url(#clip0_374_146)" data-v-9b8cf016="">
+                            <path d="M5 18L3.37766e-07 13L5 8" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                              stroke-linejoin="round" data-v-9b8cf016=""></path>
+                          </g>
+                          <defs data-v-9b8cf016="">
+                            <clippath id="clip0_374_146" data-v-9b8cf016="">
+                              <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)"
+                                data-v-9b8cf016=""></rect>
+                            </clippath>
+                          </defs>
+                        </svg></div>
+                      <div class="content__arrow content__arrow--next" data-v-9b8cf016=""><svg width="24" height="24"
+                          viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-9b8cf016="">
+                          <g opacity="0.2" clip-path="url(#clip0_374_148)" data-v-9b8cf016="">
+                            <path d="M19 18L24 13L19 8" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                              stroke-linejoin="round" data-v-9b8cf016=""></path>
+                          </g>
+                          <defs data-v-9b8cf016="">
+                            <clippath id="clip0_374_148" data-v-9b8cf016="">
+                              <rect width="24" height="24" fill="white" data-v-9b8cf016=""></rect>
+                            </clippath>
+                          </defs>
+                        </svg></div>
+                    </div>
+                    <div class="content__text" data-v-9b8cf016="">Cистемные требования Call of Duty: Modern Warfare III
+                      🔫</div><a class="content__link" target="_blank"
+                      href="https://t.me/steamkupikod/1017?utm_source=kupikod.com"
+                      data-v-9b8cf016="">https://t.me/steamkupikod/1017?utm_source=kupikod.com</a>
+                  </div>
+                  <div class="social-nav block-read-us__nav" data-v-9b8cf016="" data-v-69b3cd9f=""><a
+                      href="https://t.me/steamkupikod/1017?utm_source=kupikod.com" target="_blank"
+                      class="nav-item--active nav-item nav-item--telegram" data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRlIBAABXRUJQVlA4WAoAAAAQAAAAJAAAJAAAQUxQSOgAAAABgGpb2zLlmRncLbkTaRCdC7Do7onqVHeSu7tVu4aJaHJ3fZHve+f7EsSImAD85cMj9bnVHhHl6jHEbrwREfXqcKvYJXG9utjOJ5KnK3JM2yZ2tBKv2isS7jeKvBXEDnyQuMGxVnAOS22TN0l6EI1aEu5Y4FZ5QfJuN9SReJIV2HhD8uNEoJGklZwk4g66Az0kT+UU3MuucgDHWWJGcOCdOXT4a9kbcFsjrhXrd3BWSRQAXzNxzVA9R+wNZSu8VmWBq6xMZUD5ISNWAwLHZME6gPwTwQM0B278WtcFFO7TW5w+mGJ98K8IVlA4IEQAAACQBACdASolACUAPnUmkEekoiGhPH34AJAOiWkAAN88iBQDsr/XL10PAMyX+AAA/TH//9alj/xgGH/0iAe//DyygAAAAA=="
+                          alt="" data-v-69b3cd9f="">
+                        <div class="nav-item__badge" data-v-69b3cd9f="">50К+</div>
+                      </div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">Telegram</div>
+                    </a><a href="https://vk.com/kupikod_com?w=wall-215731237_67866&amp;utm_source=kupikod.com"
+                      target="_blank" class="nav-item nav-item--vk" data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRmABAABXRUJQVlA4WAoAAAAQAAAAIwAAIwAAQUxQSAMBAAABgKpts2rlp7m7D5Bdurt7dU3W3DpcgF/BqTSH5p4OB022qT5hzZ5DgxgRE4B/UD8iIm8pmswgOyKiQMPFzPyQYlSwnCmts1kL4NHgOSPwWioRKllMBrAsWL4AkKvbE9YAoFLgBgOWJpfFHMPXEjYEl8YlrECcFrjAnRE2XSQFW8K5h47ehVbYTgk8rAp3sumAfaAlWEl2LaFHbLpIgUGBjwNsXBaLrVBvCHxQ9yPYp+kS3wT3XaTCwC+xi1RY0DkGnBKfRat89lUlwKTER34aBG5pCgB0STyvAmYVJQDQKnG/DmkuHQakJzeAvNUrZrZIwMiP4XILgCfFwN6fiMjzN/7UAFZQOCA2AAAAkAMAnQEqJAAkAD55LpFHpKKhoTjIAJAPCWkAAOXND86Dan8feAD9Mf//1UFTf83Zqf6R4AAA"
+                          alt="" data-v-69b3cd9f="">
+                        <div class="nav-item__badge" data-v-69b3cd9f="">80К+</div>
+                      </div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">VK</div>
+                    </a><a
+                      href="https://dzen.ru/media/kupikod/novye-igry-v-podpiske-xbox-game-pass-6540dbdca3eab52d9fd439ae?utm_source=kupikod.com"
+                      target="_blank" class="nav-item nav-item--dzen" data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRo4BAABXRUJQVlA4WAoAAAAQAAAAJAAAJAAAQUxQSCEBAAABkCvbtmlb89qMbNu2bdu2bSOy7Xtf7Ngvs23bmI/7vDW/ICImAHgXEgnWFxEA9mHaQDHBkES+FYlaFxI9ESSmC0js76PAd3+LgvrX8xQi8ZMcO/5lxAJ2Zs8RL4mzkjqCiD/a+NiIjHxHRPyWxM8LPyfF1e/417etEtz4hf7BJ28/+Ao53qkxkuAgbGnvGZKQ3TBx9NlX5PHr/YMDpenRge42IGXr7B+TUTWw7/Sj77x8fnh8s7c8PdLHEQSE4J/itqPvuFwvMZEAjvz/AgDlff/40icODEUmvv/xNYEfmIrt/tHBB4zN3yNekgbWgsuIecA+Bt8rEFD9dgYI8j3cpQCHh0jM55EYDCbRaE+iyJREmi6JSDUC/OLhOqJCzP4vAFZQOCBGAAAAEAQAnQEqJQAlAD55LpFHpKKhoTjIAJAPCWkAAOAW1ho3oUYF/zMbToAA/TH//9VL/+aKf/DcPL/SS0dP//1Oj///ZYAAAA=="
+                          alt="" data-v-69b3cd9f=""></div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">Dzen</div>
+                    </a><a target="_blank" class="nav-item nav-item--dtf"
+                      href="https://dtf.ru/games/2132943-voruy-ubivay-pokupay-shapki-obzor-payday-3?utm_source=kupikod.com"
+                      data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRuoAAABXRUJQVlA4WAoAAAAQAAAAKgAADQAAQUxQSJ0AAAABgJpt27LsSeRvBDQzgGZ9NsAhkd1hAaIzABWWgAloHDT/3fUOr2ALRMQEkBnq/4WfiD6gXaEuNLUANK8Jnst1WRwDmFKImSMAJszMDuGb5ZIkSWfAhkTzP9AmaRd4I6VWB3i+NRzF5ZVIdycMgMdrca2B+Vm+m2JO9rrb7XZ7AMic5Y2UgubKdD0Tgy5jNNVZJymNWq3mkwVqtaICAFZQOCAmAAAA0AIAnQEqKwAOAD6RQJtJJaOioSqoALASCWkAAFH2AAD++E0AAAA="
+                          alt="" data-v-69b3cd9f=""></div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">DTF</div>
+                    </a><!----><!----></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="section-our-products" data-v-34e305b7="" data-v-3ca4c476="">
+            <div id="section-our-products" class="--anchor" data-v-3ca4c476=""></div>
+            <div class="container" data-v-3ca4c476="">
+              <div class="section-our-products__header" data-v-3ca4c476="">
+                <div class="section-our-products__title" data-v-3ca4c476="">Наши продукты</div>
+                <div class="section-our-products__description" data-v-3ca4c476=""> Купикод — это не только игры и софт
+                  для геймеров. Мы организовываем киберспортивные мероприятия, участвуем в съемках и у нас есть свой
+                  продакшн в медиа. </div>
+              </div>
+              <div class="section-our-products__grid" data-v-3ca4c476=""><a
+                  href="#" target="_blank"
+                  class="block-gifts grid-item grid-item--gift" data-v-3ca4c476="" data-v-9dbd36e5="">
+                  <div class="block-gifts__container" data-v-9dbd36e5="">
+                    <div class="block-gifts__backdrop" data-v-9dbd36e5=""></div>
+                    <div class="block-gifts__text" data-v-9dbd36e5="">
+                      <div class="block-gifts__header" data-v-9dbd36e5="">Steam Gifts</div>
+                      <div class="block-gifts__description" data-v-9dbd36e5="">Игры недоступные в РФ</div>
+                    </div><img class="block-gifts__img-line"
+                      src="./img/block-gift-line.8038b851.webp" alt=""
+                      data-v-9dbd36e5=""><svg class="block-gifts__arrow" width="16" height="16" viewBox="0 0 16 16"
+                      fill="none" xmlns="http://www.w3.org/2000/svg" data-v-9dbd36e5="">
+                      <path d="M2 14L14 2M14 2H2M14 2V14" stroke="white" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round" data-v-9dbd36e5=""></path>
+                    </svg>
+                  </div><img class="block-gifts__img-cards"
+                    src="./img/block-gift-cards.1c455de7.webp" alt=""
+                    data-v-9dbd36e5="">
+                </a><a href="#" target="_blank"
+                  class="block-skins grid-item grid-item--skins" data-v-3ca4c476="" data-v-c19425ec="">
+                  <div class="block-skins__text" data-v-c19425ec="">
+                    <div class="block-skins__header" data-v-c19425ec="">Пополняй Steam скинами</div>
+                    <div class="block-skins__description" data-v-c19425ec="">Комиссия 0%</div>
+                  </div><svg class="block-skins__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" data-v-c19425ec="">
+                    <path d="M2 14L14 2M14 2H2M14 2V14" stroke="white" stroke-width="3" stroke-linecap="round"
+                      stroke-linejoin="round" data-v-c19425ec=""></path>
+                  </svg><img class="block-skins__img-gun"
+                    src="./img/block-skins-guns.32f23246.webp" alt=""
+                    data-v-c19425ec="">
+                  <div class="block-skins__backdrop" data-v-c19425ec=""></div>
+                  <div class="block-skins__bg" data-v-c19425ec=""></div>
+                </a><a href="https://kupikod.com/shop/?utm_source=kupikod.com" target="_blank"
+                  class="block-codes grid-item grid-item--codes" data-v-3ca4c476="" data-v-5079c060=""><img
+                    class="block-codes__img"
+                    src="./img/block-codes-cards.ea36c931.webp"
+                    data-v-5079c060="">
+                  <div class="block-codes__text" data-v-5079c060=""> Коды<br data-v-5079c060=""> активации </div><svg
+                    class="block-codes__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" data-v-5079c060="">
+                    <path d="M2 14L14 2M14 2H2M14 2V14" stroke="white" stroke-width="3" stroke-linecap="round"
+                      stroke-linejoin="round" data-v-5079c060=""></path>
+                  </svg>
+                </a><a href="https://kupikod.com/gold/" target="_blank"
+                  class="block-genshin grid-item grid-item--genshin" data-v-3ca4c476="" data-v-a3780212=""><img
+                    src="./img/block-genshin-box.8a8b18b8.webp" alt=""
+                    class="block-genshin__img-box" data-v-a3780212=""><img
+                    src="./img/block-genshin-paymon.a557750c.webp" alt=""
+                    class="block-genshin__img-paymon" data-v-a3780212="">
+                  <div class="block-genshin__text" data-v-a3780212="">
+                    <div class="block-genshin__title" data-v-a3780212="">Genshin Impact</div>
+                    <div class="block-genshin__description" data-v-a3780212="">Самые дешевые примогемы</div>
+                  </div><svg class="block-genshin__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" data-v-a3780212="">
+                    <path d="M2 14L14 2M14 2H2M14 2V14" stroke="white" stroke-width="3" stroke-linecap="round"
+                      stroke-linejoin="round" data-v-a3780212=""></path>
+                  </svg>
+                </a><a href="https://kupikod.com/shop/?utm_source=kupikod.com" target="_blank"
+                  class="block-consoles grid-item grid-item--consoles" data-v-3ca4c476="" data-v-effa2e7c=""><img
+                    src="./img/block-consoles-1.d77201ec.webp" alt=""
+                    class="block-consoles__img-1" data-v-effa2e7c=""><img
+                    src="./img/block-consoles-2.436b94e8.webp" alt=""
+                    class="block-consoles__img-2" data-v-effa2e7c="">
+                  <div class="block-consoles__text" data-v-effa2e7c="">Подписки:<br data-v-effa2e7c="">Xbox<br
+                      data-v-effa2e7c="">Playstation</div><svg class="block-consoles__arrow" width="16" height="16"
+                    viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-effa2e7c="">
+                    <path d="M2 14L14 2M14 2H2M14 2V14" stroke="#131313" stroke-width="3" stroke-linecap="round"
+                      stroke-linejoin="round" data-v-effa2e7c=""></path>
+                  </svg>
+                </a><a href="https://kupikod.com/gold/" target="_blank" class="block-clash grid-item grid-item--clash"
+                  data-v-3ca4c476="" data-v-535f647c="">
+                  <div class="block-clash__container" data-v-535f647c=""><img
+                      src="./img/block-clash-persons.beb6f470.webp"
+                      alt="" class="block-clash__img-person" data-v-535f647c=""><img
+                      src="./img/block-clash-line.fa2144f3.webp" alt=""
+                      class="block-clash__img-line" data-v-535f647c="">
+                    <div class="block-clash__text" data-v-535f647c="">Пополнение мобильных игр</div>
+                  </div>
+                </a><a href="../replenishment/index.html" target="_blank" class="block-steam grid-item grid-item--steam"
+                  data-v-3ca4c476="" data-v-a3370276="">
+                  <div class="block-steam__container" data-v-a3370276=""><img
+                      src="./img/block-steam-line-2.d543b103.webp" alt=""
+                      class="block-steam__img-line-2" data-v-a3370276=""><img
+                      src="./img/block-steam-pet.6621b9b6.webp" alt=""
+                      class="block-steam__img-pet" data-v-a3370276=""><img
+                      src="./img/block-steam-line-1.df301517.webp" alt=""
+                      class="block-steam__img-line-1" data-v-a3370276=""><img
+                      src="./img/block-steam-line-1.df301517.webp" alt=""
+                      class="block-steam__img-line-3" data-v-a3370276="">
+                    <div class="block-steam__backdrop-1" data-v-a3370276=""></div>
+                    <div class="block-steam__backdrop-2" data-v-a3370276=""></div><svg class="block-steam__arrow"
+                      width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                      data-v-a3370276="">
+                      <path d="M2 13.6446L14 1.64459M14 1.64459H2M14 1.64459V13.6446" stroke="white" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round" data-v-a3370276=""></path>
+                    </svg>
+                    <div class="block-steam__text" data-v-a3370276="">
+                      <div href="../replenishment/index.html" class="block-steam__title" data-v-a3370276="">Пополнение
+                        Steam</div>
+                      <div class="block-steam__description" data-v-a3370276=""> Моментально<br data-v-a3370276=""> и
+                        безопасно </div>
+                    </div>
+                  </div>
+                  <div class="block-steam__icon icon" data-v-a3370276=""><img
+                      src="data:image/webp;base64,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"
+                      alt="" class="icon__img" data-v-a3370276="">
+                    <div class="icon__text" data-v-a3370276="">Steam</div>
+                  </div>
+                </a></div>
+            </div>
+          </div>
+          <div class="section-bonus-system" data-v-34e305b7="" data-v-1ad72289="">
+            <div id="section-bonus-system" class="--anchor" data-v-1ad72289=""></div>
+            <div class="section-bonus-system__bg" data-v-1ad72289=""></div>
+            <div class="container" data-v-1ad72289="">
+              <div class="section-bonus-system__window window" data-v-1ad72289="">
+                <div class="window__title" data-v-1ad72289=""> Экономь на пополнении с бонусной системой </div>
+                <div class="window__description" data-v-1ad72289=""> Получайте бонусы за пополнение баланса, покупки,
+                  участие в ивентах и активностях </div><a
+                  href="#" target="_blank"
+                  class="window__button" data-v-1ad72289="">Подробнее</a>
+                  <svg class="window__coin"
+                  xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66" fill="none"
+                  data-v-1ad72289="">
+                  <g clip-path="url(#clip0_260_4753)" data-v-1ad72289="">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M28.0933 60.9814C43.6093 63.6286 58.3334 53.1966 60.9807 37.6806C63.628 22.1647 53.1959 7.44059 37.68 4.79331C22.1641 2.14604 7.4399 12.5781 4.79263 28.094C2.14535 43.61 12.5774 58.3341 28.0933 60.9814ZM19.0312 44.9793L25.9844 46.1656L28.0342 34.1519L36.5688 47.9715L45.0287 49.4149L35.12 32.6974L47.7108 22.0448L39.3668 20.6212L28.8382 29.4391L30.598 19.1251L23.6447 17.9388L19.0312 44.9793Z"
+                      fill="#FFE500" data-v-1ad72289=""></path>
+                  </g>
+                  <defs data-v-1ad72289="">
+                    <clippath id="clip0_260_4753" data-v-1ad72289="">
+                      <rect width="57" height="57" fill="white" transform="translate(9.58594) rotate(9.68238)"
+                        data-v-1ad72289=""></rect>
+                    </clippath>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="section-work" data-v-34e305b7="" data-v-49735cd3="">
+            <div class="--anchor" id="section-work" data-v-49735cd3=""></div>
+            <div class="container" data-v-49735cd3="">
+              <div class="section-work__header" data-v-49735cd3="">У нас можно работать</div>
+              <div class="section-work__grid" data-v-49735cd3=""><!--[--><a
+                  href="https://talantix.ru/form/9gJJynh6vfKnOfVSDgVnvQ?utm_source=kupikod.com" target="_blank"
+                  class="job-item" data-v-49735cd3="" data-v-f26c6372="">
+                  <div class="job-item__title" data-v-f26c6372="">Python developer [middle]</div>
+                  <div class="job-item__tags" data-v-f26c6372=""><!--[-->
+                    <div class="job-item__tag" data-v-f26c6372="">Москва</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Полный рабочий день</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Можно удаленно</div>
+                    <div class="job-item__tag" data-v-f26c6372="">От 2 лет опыта</div><!--]-->
+                  </div>
+                  <div class="job-item__skils" data-v-f26c6372=""><!--[--><!--[-->middle<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->selenium<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->PostgreSQL<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Git<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Docker<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Linux<span data-v-f26c6372="">|</span><!--]--><!--]-->
+                  </div>
+                </a><a href="https://talantix.ru/form/AJW4tna7v04XnDBIoqEyMA?utm_source=kupikod.com" target="_blank"
+                  class="job-item" data-v-49735cd3="" data-v-f26c6372="">
+                  <div class="job-item__title" data-v-f26c6372="">SMM-менеджер [Junior / Middle]</div>
+                  <div class="job-item__tags" data-v-f26c6372=""><!--[-->
+                    <div class="job-item__tag" data-v-f26c6372="">Москва</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Полный рабочий день</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Можно удаленно</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Опыт работы не менее года</div><!--]-->
+                  </div>
+                  <div class="job-item__skils" data-v-f26c6372=""><!--[--><!--[-->Социальные сети<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Поиск<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->ТЗ<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Копирайт<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Насмотренность<span
+                      data-v-f26c6372="">|</span><!--]--><!--]--></div>
+                </a><a href="https://talantix.ru/form/UCGudXO8cDv8qCCnXjxPlg?utm_source=kupikod.com" target="_blank"
+                  class="job-item" data-v-49735cd3="" data-v-f26c6372="">
+                  <div class="job-item__title" data-v-f26c6372="">Project manager [Middle]</div>
+                  <div class="job-item__tags" data-v-f26c6372=""><!--[-->
+                    <div class="job-item__tag" data-v-f26c6372="">Москва</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Полный рабочий день</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Можно удаленно</div>
+                    <div class="job-item__tag" data-v-f26c6372="">От 2 лет опыта</div><!--]-->
+                  </div>
+                  <div class="job-item__skils" data-v-f26c6372=""><!--[--><!--[-->Технический бекграунд<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Jira<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Scrum<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Agile<span data-v-f26c6372="">|</span><!--]--><!--]-->
+                  </div>
+                </a><a href="https://talantix.ru/form/r8cZtT36E3NoNqGjE7iT2A?utm_source=kupikod.com" target="_blank"
+                  class="job-item" data-v-49735cd3="" data-v-f26c6372="">
+                  <div class="job-item__title" data-v-f26c6372="">Product designer [Middle / Senior]</div>
+                  <div class="job-item__tags" data-v-f26c6372=""><!--[-->
+                    <div class="job-item__tag" data-v-f26c6372="">Москва</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Полный рабочий день</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Можно удаленно</div><!--]-->
+                  </div>
+                  <div class="job-item__skils" data-v-f26c6372=""><!--[--><!--[-->Figma<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->принципы UI/UX<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Adobe Photoshop<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Illustrator<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->After Effects<span
+                      data-v-f26c6372="">|</span><!--]--><!--]--></div>
+                </a><a href="https://talantix.ru/form/rM7LcHPaQcxN8xmWRbzv_A?utm_source=kupikod.com" target="_blank"
+                  class="job-item" data-v-49735cd3="" data-v-f26c6372="">
+                  <div class="job-item__title" data-v-f26c6372="">Разработчик PHP (Laravel) [Middle]</div>
+                  <div class="job-item__tags" data-v-f26c6372=""><!--[-->
+                    <div class="job-item__tag" data-v-f26c6372="">Москва</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Полный рабочий день</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Можно удаленно</div><!--]-->
+                  </div>
+                  <div class="job-item__skils" data-v-f26c6372=""><!--[--><!--[-->php<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->laravel<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->postgresql<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->redis<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->rabbitmq<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->docker<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->gitlab<span data-v-f26c6372="">|</span><!--]--><!--]-->
+                  </div>
+                </a><a href="https://talantix.ru/form/1oEKRR2sW4QY65xr8Km5rw?utm_source=kupikod.com" target="_blank"
+                  class="job-item" data-v-49735cd3="" data-v-f26c6372="">
+                  <div class="job-item__title" data-v-f26c6372="">Product Marketing Analyst [Middle / Senior]</div>
+                  <div class="job-item__tags" data-v-f26c6372=""><!--[-->
+                    <div class="job-item__tag" data-v-f26c6372="">Москва</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Полный рабочий день</div>
+                    <div class="job-item__tag" data-v-f26c6372="">Можно удаленно</div>
+                    <div class="job-item__tag" data-v-f26c6372="">От 2 лет опыта</div><!--]-->
+                  </div>
+                  <div class="job-item__skils" data-v-f26c6372=""><!--[--><!--[-->мат-статистика<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->custdev<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Excel<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Y.Metrica<span
+                      data-v-f26c6372="">|</span><!--]--><!--[-->Коммуникативные навыки<span
+                      data-v-f26c6372="">|</span><!--]--><!--]--></div>
+                </a><!--]--></div>
+            </div>
+          </div><!--]--><!--[-->
+          <div class="footer" data-v-ff8c1214="">
+            <div class="--anchor" id="section-contacts" data-v-ff8c1214=""></div>
+            <div class="container" data-v-ff8c1214="">
+              <div class="footer__container" data-v-ff8c1214="">
+                <div class="footer__col footer__col--1" data-v-ff8c1214=""><svg class="footer__logo" width="233"
+                    height="23" viewBox="0 0 233 23" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-ff8c1214="">
+                    <g opacity="0.5" data-v-ff8c1214="">
+                      <path
+                        d="M0 0H8.62706V11.7683L22.5603 0H32.7395L19.2394 11.3748L33.0283 23H22.8491L14.1498 15.6672L5.45057 23H0V0Z"
+                        fill="white" data-v-ff8c1214=""></path>
+                      <path
+                        d="M36.425 0H45.0521V11.5179C45.0521 12.7818 45.4852 13.8548 46.3516 14.7372C47.2419 15.5956 48.3369 16.0249 49.6363 16.0249H59.8516C61.1271 16.0249 62.1979 15.5956 63.0642 14.7372C63.9546 13.8548 64.3998 12.7818 64.3998 11.5179V0H73.0269V11.5179C73.0269 14.761 71.9079 17.4914 69.6699 19.7092C67.456 21.9031 64.7126 23 61.4399 23H48.0481C44.7513 23 41.9839 21.9031 39.7459 19.7092C37.532 17.4914 36.425 14.761 36.425 11.5179V0Z"
+                        fill="white" data-v-ff8c1214=""></path>
+                      <path
+                        d="M76.4456 0H102.868C105.154 0 107.067 0.775013 108.608 2.32504C110.148 3.85122 110.918 5.74702 110.918 8.01244C110.918 10.254 110.148 12.1498 108.608 13.6998C107.067 15.226 105.154 15.9891 102.868 15.9891H85.0727V23H76.4456V0ZM85.0727 6.97512V9.014H101.28C101.569 9.014 101.809 8.91861 102.002 8.72784C102.194 8.53707 102.291 8.2986 102.291 8.01244C102.291 7.72628 102.194 7.48782 102.002 7.29705C101.809 7.08243 101.569 6.97512 101.28 6.97512H85.0727Z"
+                        fill="white" data-v-ff8c1214=""></path>
+                      <path d="M114.351 0H122.978V23H114.351V0Z" fill="white" data-v-ff8c1214=""></path>
+                      <path
+                        d="M126.418 0H135.045V11.7683L148.978 0H159.158L145.658 11.3748L159.446 23H149.267L140.568 15.6672L131.869 23H126.418V0Z"
+                        fill="white" data-v-ff8c1214=""></path>
+                      <path
+                        d="M170.13 0H183.522C186.795 0 189.538 1.10886 191.752 3.32659C193.99 5.52048 195.109 8.25091 195.109 11.5179C195.109 14.761 193.99 17.4914 191.752 19.7092C189.538 21.9031 186.795 23 183.522 23H170.13C166.834 23 164.066 21.9031 161.828 19.7092C159.614 17.4914 158.507 14.761 158.507 11.5179C158.507 8.25091 159.614 5.52048 161.828 3.32659C164.066 1.10886 166.834 0 170.13 0ZM171.719 6.97512C170.419 6.97512 169.324 7.41628 168.434 8.2986C167.568 9.15708 167.134 10.2302 167.134 11.5179C167.134 12.7818 167.568 13.8548 168.434 14.7372C169.324 15.5956 170.419 16.0249 171.719 16.0249H181.934C183.209 16.0249 184.28 15.5956 185.146 14.7372C186.037 13.8548 186.482 12.7818 186.482 11.5179C186.482 10.2302 186.037 9.15708 185.146 8.2986C184.28 7.41628 183.209 6.97512 181.934 6.97512H171.719Z"
+                        fill="white" data-v-ff8c1214=""></path>
+                      <path
+                        d="M198.528 0H221.413C224.686 0 227.429 1.10886 229.643 3.32659C231.881 5.52048 233 8.25091 233 11.5179C233 14.761 231.881 17.4914 229.643 19.7092C227.429 21.9031 224.686 23 221.413 23H198.528V0ZM207.155 6.97512V16.0249H219.825C221.1 16.0249 222.171 15.5956 223.037 14.7372C223.928 13.8548 224.373 12.7818 224.373 11.5179C224.373 10.2302 223.928 9.15708 223.037 8.2986C222.171 7.41628 221.1 6.97512 219.825 6.97512H207.155Z"
+                        fill="white" data-v-ff8c1214=""></path>
+                    </g>
+                  </svg>
+                  <div class="footer__copyright" data-v-ff8c1214="">(c) KUPIKOD, 2024</div>
+                </div>
+                <div class="footer__col footer__col--2" data-v-ff8c1214="">
+                  <div class="footer__col-head" data-v-ff8c1214="">Продукты</div><a class="footer__link" target="_blank"
+                    href="../replenishment/index.html" data-v-ff8c1214="">Пополнить Стим</a><a
+                    class="footer__link" target="_blank"
+                    href="../replenishment/index.html" data-v-ff8c1214="">Купить игру в
+                    Стим гифтом</a><a class="footer__link" target="_blank" href="../mobile game/index.html"
+                    data-v-ff8c1214="">Донат в мобильные игры</a><a class="footer__link" target="_blank"
+                    href="#" data-v-ff8c1214="">Купить игру ключом</a><a
+                    class="footer__link" target="_blank" href="#"
+                    data-v-ff8c1214="">Активатор</a>
+                </div>
+                <div class="footer__col footer__col--3" data-v-ff8c1214="">
+                  <div class="footer__col-head" data-v-ff8c1214="">Связаться с нами</div><a
+                    class="footer__link footer__link--underline" href="#" target="_blank"
+                    data-v-ff8c1214=""><img
+                      src="data:image/webp;base64,UklGRh4BAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSMYAAAABgCxJtmmrr+37bNu2NbJt23797xvnehwRE4AM3hQfZ/PB50Yc8sY/SNIfI2v5wT/FL1NMnKOPVJ4hhqXzH9TcMuSoO6B0u/BDmDLgHH2m9K3TuUqxS6tk9oPy/aBrj9JSlan0gMqPXvgvKA+pDqg+DCF4Rfk7lPZlxfeQGcEHKg9UQLB1+Z48KAIiD1Qv6YjZfgDBB2oOGZHOUbcmJnkPOvkxQXBB9WeLDdD2ILtCzIMLkr3YAZ2PJPvigeDC51EwLoAJGTNWUDggMgAAANACAJ0BKiAAIAA+kTSkUiWiI6OUALASCWkAAEuuigAA+Ff//Gk0/27f5X//+9aAAAAA"
+                      alt="" data-v-ff8c1214=""> Поддержка клиентов </a><a class="footer__link footer__link--underline"
+                    href="#" target="_blank" data-v-ff8c1214=""><img
+                      src="data:image/webp;base64,UklGRh4BAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSMYAAAABgCxJtmmrr+37bNu2NbJt23797xvnehwRE4AM3hQfZ/PB50Yc8sY/SNIfI2v5wT/FL1NMnKOPVJ4hhqXzH9TcMuSoO6B0u/BDmDLgHH2m9K3TuUqxS6tk9oPy/aBrj9JSlan0gMqPXvgvKA+pDqg+DCF4Rfk7lPZlxfeQGcEHKg9UQLB1+Z48KAIiD1Qv6YjZfgDBB2oOGZHOUbcmJnkPOvkxQXBB9WeLDdD2ILtCzIMLkr3YAZ2PJPvigeDC51EwLoAJGTNWUDggMgAAANACAJ0BKiAAIAA+kTSkUiWiI6OUALASCWkAAEuuigAA+Ff//Gk0/27f5X//+9aAAAAA"
+                      alt="" data-v-ff8c1214=""> B2B сотрудничество </a><a
+                    class="footer__link footer__link--underline footer__link--contacts" target="_blank"
+                    data-v-ff8c1214=""><img
+                      src="data:image/webp;base64,UklGRh4BAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSMYAAAABgCxJtmmrr+37bNu2NbJt23797xvnehwRE4AM3hQfZ/PB50Yc8sY/SNIfI2v5wT/FL1NMnKOPVJ4hhqXzH9TcMuSoO6B0u/BDmDLgHH2m9K3TuUqxS6tk9oPy/aBrj9JSlan0gMqPXvgvKA+pDqg+DCF4Rfk7lPZlxfeQGcEHKg9UQLB1+Z48KAIiD1Qv6YjZfgDBB2oOGZHOUbcmJnkPOvkxQXBB9WeLDdD2ILtCzIMLkr3YAZ2PJPvigeDC51EwLoAJGTNWUDggMgAAANACAJ0BKiAAIAA+kTSkUiWiI6OUALASCWkAAEuuigAA+Ff//Gk0/27f5X//+9aAAAAA"
+                      alt="" data-v-ff8c1214=""> Контакты </a><a
+                    class="footer__link footer__link--underline footer__link--contacts" href="mailto:admin@kupikod.com"
+                    target="_blank" data-v-ff8c1214=""><img
+                      src="data:image/webp;base64,UklGRh4BAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSMYAAAABgCxJtmmrr+37bNu2NbJt23797xvnehwRE4AM3hQfZ/PB50Yc8sY/SNIfI2v5wT/FL1NMnKOPVJ4hhqXzH9TcMuSoO6B0u/BDmDLgHH2m9K3TuUqxS6tk9oPy/aBrj9JSlan0gMqPXvgvKA+pDqg+DCF4Rfk7lPZlxfeQGcEHKg9UQLB1+Z48KAIiD1Qv6YjZfgDBB2oOGZHOUbcmJnkPOvkxQXBB9WeLDdD2ILtCzIMLkr3YAZ2PJPvigeDC51EwLoAJGTNWUDggMgAAANACAJ0BKiAAIAA+kTSkUiWiI6OUALASCWkAAEuuigAA+Ff//Gk0/27f5X//+9aAAAAA"
+                      alt="" data-v-ff8c1214=""> Правообладателям </a>
+                </div>
+                <div class="footer__col footer__col--4" data-v-ff8c1214="">
+                  <div class="footer__col-head" data-v-ff8c1214="">Наши медиа с полезным контентом:</div>
+                  <div class="social-nav social-nav--no-badges footer__nav" data-v-ff8c1214="" data-v-69b3cd9f=""><a
+                      href="https://t.me/steamkupikod?utm_source=kupikod.com" target="_blank"
+                      class="nav-item nav-item--telegram" data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRlIBAABXRUJQVlA4WAoAAAAQAAAAJAAAJAAAQUxQSOgAAAABgGpb2zLlmRncLbkTaRCdC7Do7onqVHeSu7tVu4aJaHJ3fZHve+f7EsSImAD85cMj9bnVHhHl6jHEbrwREfXqcKvYJXG9utjOJ5KnK3JM2yZ2tBKv2isS7jeKvBXEDnyQuMGxVnAOS22TN0l6EI1aEu5Y4FZ5QfJuN9SReJIV2HhD8uNEoJGklZwk4g66Az0kT+UU3MuucgDHWWJGcOCdOXT4a9kbcFsjrhXrd3BWSRQAXzNxzVA9R+wNZSu8VmWBq6xMZUD5ISNWAwLHZME6gPwTwQM0B278WtcFFO7TW5w+mGJ98K8IVlA4IEQAAACQBACdASolACUAPnUmkEekoiGhPH34AJAOiWkAAN88iBQDsr/XL10PAMyX+AAA/TH//9alj/xgGH/0iAe//DyygAAAAA=="
+                          alt="" data-v-69b3cd9f="">
+                        <div class="nav-item__badge" data-v-69b3cd9f="">50К+</div>
+                      </div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">Telegram</div>
+                    </a><a href="https://vk.com/kupikod_com?utm_source=kupikod.com" target="_blank"
+                      class="nav-item nav-item--vk" data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRmABAABXRUJQVlA4WAoAAAAQAAAAIwAAIwAAQUxQSAMBAAABgKpts2rlp7m7D5Bdurt7dU3W3DpcgF/BqTSH5p4OB022qT5hzZ5DgxgRE4B/UD8iIm8pmswgOyKiQMPFzPyQYlSwnCmts1kL4NHgOSPwWioRKllMBrAsWL4AkKvbE9YAoFLgBgOWJpfFHMPXEjYEl8YlrECcFrjAnRE2XSQFW8K5h47ehVbYTgk8rAp3sumAfaAlWEl2LaFHbLpIgUGBjwNsXBaLrVBvCHxQ9yPYp+kS3wT3XaTCwC+xi1RY0DkGnBKfRat89lUlwKTER34aBG5pCgB0STyvAmYVJQDQKnG/DmkuHQakJzeAvNUrZrZIwMiP4XILgCfFwN6fiMjzN/7UAFZQOCA2AAAAkAMAnQEqJAAkAD55LpFHpKKhoTjIAJAPCWkAAOXND86Dan8feAD9Mf//1UFTf83Zqf6R4AAA"
+                          alt="" data-v-69b3cd9f="">
+                        <div class="nav-item__badge" data-v-69b3cd9f="">80К+</div>
+                      </div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">VK</div>
+                    </a><a href="https://dzen.ru/kupikod?utm_source=kupikod.com?utm_source=kupikod.com" target="_blank"
+                      class="nav-item nav-item--dzen" data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRo4BAABXRUJQVlA4WAoAAAAQAAAAJAAAJAAAQUxQSCEBAAABkCvbtmlb89qMbNu2bdu2bSOy7Xtf7Ngvs23bmI/7vDW/ICImAHgXEgnWFxEA9mHaQDHBkES+FYlaFxI9ESSmC0js76PAd3+LgvrX8xQi8ZMcO/5lxAJ2Zs8RL4mzkjqCiD/a+NiIjHxHRPyWxM8LPyfF1e/417etEtz4hf7BJ28/+Ao53qkxkuAgbGnvGZKQ3TBx9NlX5PHr/YMDpenRge42IGXr7B+TUTWw7/Sj77x8fnh8s7c8PdLHEQSE4J/itqPvuFwvMZEAjvz/AgDlff/40icODEUmvv/xNYEfmIrt/tHBB4zN3yNekgbWgsuIecA+Bt8rEFD9dgYI8j3cpQCHh0jM55EYDCbRaE+iyJREmi6JSDUC/OLhOqJCzP4vAFZQOCBGAAAAEAQAnQEqJQAlAD55LpFHpKKhoTjIAJAPCWkAAOAW1ho3oUYF/zMbToAA/TH//9VL/+aKf/DcPL/SS0dP//1Oj///ZYAAAA=="
+                          alt="" data-v-69b3cd9f=""></div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">Dzen</div>
+                    </a><a target="_blank" class="nav-item nav-item--dtf"
+                      href="https://dtf.ru/s/954970-kupikod?utm_source=kupikod.com" data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRuoAAABXRUJQVlA4WAoAAAAQAAAAKgAADQAAQUxQSJ0AAAABgJpt27LsSeRvBDQzgGZ9NsAhkd1hAaIzABWWgAloHDT/3fUOr2ALRMQEkBnq/4WfiD6gXaEuNLUANK8Jnst1WRwDmFKImSMAJszMDuGb5ZIkSWfAhkTzP9AmaRd4I6VWB3i+NRzF5ZVIdycMgMdrca2B+Vm+m2JO9rrb7XZ7AMic5Y2UgubKdD0Tgy5jNNVZJymNWq3mkwVqtaICAFZQOCAmAAAA0AIAnQEqKwAOAD6RQJtJJaOioSqoALASCWkAAFH2AAD++E0AAAA="
+                          alt="" data-v-69b3cd9f=""></div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">DTF</div>
+                    </a><a target="_blank" class="nav-item nav-item--youtube"
+                      href="https://www.youtube.com/@kupikod/featured?utm_source=site&amp;utm_medium=button&amp;utm_campaign=promo"
+                      data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRmgBAABXRUJQVlA4WAoAAAAQAAAAJAAAGgAAQUxQSBoBAAAFgGPb1jHp1l9W22ZuDUCZItu2EdmZbXem3ByCbbsLzR81goiYAADgGmtqSAQCPpfD4RAES6mUyz8/P15fXl8fb05k+M3NS9MDg7Le8n0ATRlg+MzhFN5zYLw1ET0RzL3rYMOJObizbtVVIFTzkiAlO7CiJdViC6SfTQNzLWgo052nIIFRWLwFpUa1cUqARWykIYV2YR8NgEVmnIBUL9FDC2A14kIKNNlXebIYs6rxJ0C6VzZAzbTGVwiK7c/TVIxLQ8SgXH+5QO69OUYKGksP9snRnXL8zFcBH/muhQq4YySAuU8JgoaY64wFd8aDqXu7PUBSnKDByEroNn4TthbW+hKhgM/lcNgEoVQoZLLPj7e3l9uT3b1jqCxWUDggKAAAAPACAJ0BKiUAGwA+kUaeSyWjoqGlaACwEglpAAApQ23wAP74TQAAAAA="
+                          alt="" data-v-69b3cd9f=""></div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">YouTube</div>
+                    </a><a target="_blank" class="nav-item nav-item--twitch"
+                      href="https://www.twitch.tv/kupikod?utm_source=site&amp;utm_medium=button&amp;utm_campaign=promo"
+                      data-v-69b3cd9f="">
+                      <div class="nav-item__img" data-v-69b3cd9f=""><img
+                          src="data:image/webp;base64,UklGRgABAABXRUJQVlA4WAoAAAAQAAAAJwAAJwAAQUxQSKQAAAABgFXbdtzmQhAEQxAEQwiExyBikMcgZuAwCCRBeBBOR00dPyNiAvTHvFaG11vTjamlpc6pLcBpgx9Ah2mwfQv7/i5dtlkGRdKTSJMecEoC7J/hgENSwD4pHUeStJ1FkzrLKjmgrpADsAVyAK6O0+yyvUvWGICrufJhJCkH7a728hGmHLS7er1+lIPmWjQUuAfgms3HrkVci7gWca0Y4FpyO4t+o1ZQOCA2AAAAUAMAnQEqKAAoAD6RPJlIJaOioS4oALASCWkAAG2YGbxroAAA/vhNErJP/+NGa/wZ///jDgAA"
+                          alt="" data-v-69b3cd9f=""></div>
+                      <div class="nav-item__label" data-v-69b3cd9f="">Twitch</div>
+                    </a></div>
+                  <div class="footer__widget widget" data-v-ff8c1214="">
+                    <div class="widget__title" data-v-ff8c1214=""> Добавь виджет на свой сайт и зарабатывай вместе с
+                      kupikod </div><a href="https://t.me/kupikod_b2b?utm_source=kupikod.com" target="_blank"
+                      class="widget__button" data-v-ff8c1214="">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__bottom" data-v-ff8c1214="">
+                <div class="footer__address-list" data-v-ff8c1214="">
+                  <div class="footer__address" data-v-ff8c1214=""></div>
+                  <div class="footer__address-2" data-v-ff8c1214=""></div>
+                </div>
+                <div class="footer__terms" data-v-ff8c1214=""><a href="https://kupikod.com/" class="footer__term"
+                    data-v-ff8c1214="">Политика конфиденциальности</a><a href="https://kupikod.com/"
+                    class="footer__term" data-v-ff8c1214="">Пользовательское соглашение</a></div>
+              </div>
+            </div>
+            <div class="footer__br" data-v-ff8c1214=""></div><img class="footer__img"
+              src="./img/footer-person.90988a07.webp" alt=""
+              data-v-ff8c1214="">
+          </div><!----><!--]-->
+        </div>
+      </div>
+    </div><!----><!--]-->
+  </div>
+     <div id="hde-container" style="overflow: hidden; width: 90px; height: 90px; inset: auto 0px 0px auto;">
+      <style>
+        #hde-iframe {
+          width: 100%;
+          height: 100%;
+          border: 0;
+          border-top-left-radius: 5px;
+        }
+
+        #hde-chat-container {
+          height: 450px;
+          width: 350px;
+          padding: 0;
+          visibility: hidden;
+          overflow: hidden;
+          border-radius: 5px;
+        }
+
+        #hde-container {
+          border-radius: 5px;
+          height: 450px;
+          width: 350px;
+          padding: 0;
+          position: fixed;
+          z-index: 214748364;
+          user-select: none;
+          display: none;
+        }
+
+        #hde-chat-button {
+          padding: 0;
+          position: absolute;
+          color: #fff;
+          margin: 0;
+          height: 90px;
+          width: 100%;
+          cursor: pointer;
+          user-select: none;
+          display: block;
+        }
+
+        @media only screen and (max-device-width: 481px) {
+          .hde-container-mobile #hde-iframe {
+            border-top-left-radius: 0
+          }
+
+          .hde-container-mobile #hde-chat-container {
+            border-radius: 0;
+            width: 100%;
+            height: 100%;
+          }
+
+          #hde-container.hde-container-mobile {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      </style>
+      <div id="hde-chat-button"></div>
+      <div id="hde-chat-container" style="width: 90px; height: 90px;"></div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
