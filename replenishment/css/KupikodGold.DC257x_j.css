@@ -1,1 +1,7 @@
-.black-gold-coin path[data-v-4a65b2f0]{fill:#000}.grey-gold-coin path[data-v-4a65b2f0]{fill:#ffffffbf}
+.black-gold-coin path[data-v-4a65b2f0] {
+    fill: #000
+}
+
+.grey-gold-coin path[data-v-4a65b2f0] {
+    fill: #ffffffbf
+}

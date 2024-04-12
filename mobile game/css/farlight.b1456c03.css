@@ -1,0 +1,54 @@
+.farlight.purchase-form .purchase-form__header[data-v-1d693ac3] {
+    background-image: url(../assets/farlight/decoration.webp), linear-gradient(90deg, rgba(25, 28, 53, .35) .09%, #3a50ff 99.9%)
+}
+
+.farlight.purchase-form .purchase-form__header-image[data-v-1d693ac3] {
+    height: 186px;
+    right: -50px;
+    width: 308px
+}
+
+.farlight.purchase-form .purchase-form__logo[data-v-1d693ac3] {
+    background-image: url(../assets/farlight/logo.webp)
+}
+
+.farlight.purchase-form .purchase-form__logo-label[data-v-1d693ac3] {
+    bottom: -23px;
+    height: 45px;
+    width: 120px
+}
+
+@media (max-width:1620px) {
+    .farlight.purchase-form .purchase-form__header-image[data-v-1d693ac3] {
+        height: 147px;
+        right: -40px;
+        width: 243px
+    }
+}
+
+@media (max-width:1280px) and (min-width:768px) {
+    .farlight.purchase-form .purchase-form__header-image[data-v-1d693ac3] {
+        height: 186px;
+        right: -50px;
+        width: 308px
+    }
+}
+
+@media (max-width:767px) {
+    .farlight.purchase-form .purchase-form__header[data-v-1d693ac3] {
+        padding-right: 9px
+    }
+
+    .farlight.purchase-form .purchase-form__header-image[data-v-1d693ac3] {
+        bottom: 76px;
+        height: 116px;
+        right: -10px;
+        width: 164px
+    }
+
+    .farlight.purchase-form .purchase-form__logo-label[data-v-1d693ac3] {
+        bottom: -20px;
+        height: 39px;
+        width: 103px
+    }
+}

@@ -1,8 +1,8 @@
-@charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap')
+;
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -11,7 +11,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -20,7 +20,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -29,7 +29,7 @@
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -41,7 +41,7 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -270,7 +270,7 @@ h1[data-v-593eb48c] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -279,7 +279,7 @@ h1[data-v-593eb48c] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -288,7 +288,7 @@ h1[data-v-593eb48c] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -297,7 +297,7 @@ h1[data-v-593eb48c] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -309,7 +309,7 @@ h1[data-v-593eb48c] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -439,7 +439,7 @@ h1[data-v-79f4e56f] {
     background: hsla(0, 0%, 100%, .1);
     border-radius: 8px;
     color: #fff;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-size: 14px;
     font-weight: 700;
     left: 20px;
@@ -531,7 +531,7 @@ h1[data-v-79f4e56f] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -540,7 +540,7 @@ h1[data-v-79f4e56f] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -549,7 +549,7 @@ h1[data-v-79f4e56f] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -558,7 +558,7 @@ h1[data-v-79f4e56f] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -570,7 +570,7 @@ h1[data-v-79f4e56f] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -839,7 +839,7 @@ h1[data-v-901ce72e] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -848,7 +848,7 @@ h1[data-v-901ce72e] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -857,7 +857,7 @@ h1[data-v-901ce72e] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -866,7 +866,7 @@ h1[data-v-901ce72e] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -878,7 +878,7 @@ h1[data-v-901ce72e] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -1099,7 +1099,7 @@ h1[data-v-69b3cd9f] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -1108,7 +1108,7 @@ h1[data-v-69b3cd9f] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -1117,7 +1117,7 @@ h1[data-v-69b3cd9f] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -1126,7 +1126,7 @@ h1[data-v-69b3cd9f] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -1138,7 +1138,7 @@ h1[data-v-69b3cd9f] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -1416,7 +1416,7 @@ h1[data-v-9b8cf016] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -1425,7 +1425,7 @@ h1[data-v-9b8cf016] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -1434,7 +1434,7 @@ h1[data-v-9b8cf016] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -1443,7 +1443,7 @@ h1[data-v-9b8cf016] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -1455,7 +1455,7 @@ h1[data-v-9b8cf016] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -1670,7 +1670,7 @@ h1[data-v-7c9632e6] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -1679,7 +1679,7 @@ h1[data-v-7c9632e6] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -1688,7 +1688,7 @@ h1[data-v-7c9632e6] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -1697,7 +1697,7 @@ h1[data-v-7c9632e6] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -1709,7 +1709,7 @@ h1[data-v-7c9632e6] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -1939,7 +1939,7 @@ h1[data-v-9dbd36e5] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -1948,7 +1948,7 @@ h1[data-v-9dbd36e5] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -1957,7 +1957,7 @@ h1[data-v-9dbd36e5] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -1966,7 +1966,7 @@ h1[data-v-9dbd36e5] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -1978,7 +1978,7 @@ h1[data-v-9dbd36e5] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -2192,7 +2192,7 @@ h1[data-v-c19425ec] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -2201,7 +2201,7 @@ h1[data-v-c19425ec] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -2210,7 +2210,7 @@ h1[data-v-c19425ec] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -2219,7 +2219,7 @@ h1[data-v-c19425ec] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -2231,7 +2231,7 @@ h1[data-v-c19425ec] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -2398,7 +2398,7 @@ h1[data-v-5079c060] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -2407,7 +2407,7 @@ h1[data-v-5079c060] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -2416,7 +2416,7 @@ h1[data-v-5079c060] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -2425,7 +2425,7 @@ h1[data-v-5079c060] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -2437,7 +2437,7 @@ h1[data-v-5079c060] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -2682,7 +2682,7 @@ h1[data-v-a3780212] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -2691,7 +2691,7 @@ h1[data-v-a3780212] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -2700,7 +2700,7 @@ h1[data-v-a3780212] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -2709,7 +2709,7 @@ h1[data-v-a3780212] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -2721,7 +2721,7 @@ h1[data-v-a3780212] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -2898,7 +2898,7 @@ h1[data-v-effa2e7c] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -2907,7 +2907,7 @@ h1[data-v-effa2e7c] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -2916,7 +2916,7 @@ h1[data-v-effa2e7c] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -2925,7 +2925,7 @@ h1[data-v-effa2e7c] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -2937,7 +2937,7 @@ h1[data-v-effa2e7c] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -3163,7 +3163,7 @@ h1[data-v-535f647c] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -3172,7 +3172,7 @@ h1[data-v-535f647c] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -3181,7 +3181,7 @@ h1[data-v-535f647c] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -3190,7 +3190,7 @@ h1[data-v-535f647c] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -3202,7 +3202,7 @@ h1[data-v-535f647c] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -3573,7 +3573,7 @@ h1[data-v-a3370276] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -3582,7 +3582,7 @@ h1[data-v-a3370276] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -3591,7 +3591,7 @@ h1[data-v-a3370276] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -3600,7 +3600,7 @@ h1[data-v-a3370276] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -3612,7 +3612,7 @@ h1[data-v-a3370276] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -3959,7 +3959,7 @@ h1[data-v-3ca4c476] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -3968,7 +3968,7 @@ h1[data-v-3ca4c476] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -3977,7 +3977,7 @@ h1[data-v-3ca4c476] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -3986,7 +3986,7 @@ h1[data-v-3ca4c476] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -3998,7 +3998,7 @@ h1[data-v-3ca4c476] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -4124,7 +4124,7 @@ h1[data-v-1ad72289] {
 .window__description[data-v-1ad72289],
 .window__title[data-v-1ad72289] {
     color: #fff;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700
 }
@@ -4141,7 +4141,7 @@ h1[data-v-1ad72289] {
     border-radius: 16px;
     color: #131313;
     display: flex;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-weight: 700;
     height: 60px;
@@ -4263,7 +4263,7 @@ h1[data-v-1ad72289] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -4272,7 +4272,7 @@ h1[data-v-1ad72289] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -4281,7 +4281,7 @@ h1[data-v-1ad72289] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -4290,7 +4290,7 @@ h1[data-v-1ad72289] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -4302,7 +4302,7 @@ h1[data-v-1ad72289] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -4483,7 +4483,7 @@ h1[data-v-f26c6372] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -4492,7 +4492,7 @@ h1[data-v-f26c6372] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -4501,7 +4501,7 @@ h1[data-v-f26c6372] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -4510,7 +4510,7 @@ h1[data-v-f26c6372] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -4522,7 +4522,7 @@ h1[data-v-f26c6372] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -4666,7 +4666,7 @@ h1[data-v-49735cd3] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -4675,7 +4675,7 @@ h1[data-v-49735cd3] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -4684,7 +4684,7 @@ h1[data-v-49735cd3] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -4693,7 +4693,7 @@ h1[data-v-49735cd3] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -4705,7 +4705,7 @@ h1[data-v-49735cd3] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -4796,7 +4796,7 @@ h1[data-v-57a3a290] {
 .widget[data-v-57a3a290] {
     background: #121729;
     display: flex;
-    font-family: Jost, Arial, sans-serif;
+      font-family: "Jost", sans-serif;
     font-size: 12px;
     font-weight: 400;
     height: 83px;
@@ -4890,7 +4890,7 @@ h1[data-v-57a3a290] {
 }
 
 .widget-item_text[data-v-57a3a290] {
-    font-family: Jost, Arial, sans-serif;
+      font-family: "Jost", sans-serif;
     font-weight: 400;
     margin-left: 8px;
     text-align: left;
@@ -5111,7 +5111,7 @@ h1[data-v-57a3a290] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -5120,7 +5120,7 @@ h1[data-v-57a3a290] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -5129,7 +5129,7 @@ h1[data-v-57a3a290] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -5138,7 +5138,7 @@ h1[data-v-57a3a290] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -5150,7 +5150,7 @@ h1[data-v-57a3a290] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -5597,7 +5597,7 @@ h1[data-v-ff8c1214] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -5606,7 +5606,7 @@ h1[data-v-ff8c1214] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -5615,7 +5615,7 @@ h1[data-v-ff8c1214] {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -5624,7 +5624,7 @@ h1[data-v-ff8c1214] {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -5636,7 +5636,7 @@ h1[data-v-ff8c1214] {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;
@@ -5726,7 +5726,7 @@ h1 {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url(./Geometria.82e87425.eot);
@@ -5735,7 +5735,7 @@ h1 {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./Geometria-Medium.2da7b8bf.eot);
@@ -5744,7 +5744,7 @@ h1 {
 
 @font-face {
     font-display: swap;
-    font-family: Geometria;
+    font-family: "Geologica", sans-serif;
     font-style: normal;
     font-weight: 700;
     src: url(./Geometria-Bold.ad7bbd7d.eot);
@@ -5753,7 +5753,7 @@ h1 {
 
 @font-face {
     font-display: swap;
-    font-family: Jost;
+     font-family: "Jost", sans-serif;
     font-style: normal;
     font-weight: 500;
     src: url(./jost-v14-cyrillic_latin-500.b52c2b06.eot);
@@ -5765,7 +5765,7 @@ h1 {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #fff;
-    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+     font-family: "Geologica", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-synthesis: none;

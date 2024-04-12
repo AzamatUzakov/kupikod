@@ -7,95 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kupikod – покупка, пополнение игр и сервисов</title>
   <script async="" src="./js/tag.js"></script>
-  <script>(function () {
-      'use strict';
-      var loadedMetrica = false,
-        metricaId = 89954502,
-        timerId;
-      if (navigator.userAgent.indexOf('YandexMetrika') > -1) {
-        loadMetrica();
-      } else {
-        window.addEventListener('scroll', loadMetrica, {
-          passive: true,
-        });
-        window.addEventListener('touchstart', loadMetrica);
-        document.addEventListener('mouseenter', loadMetrica);
-        document.addEventListener('click', loadMetrica);
-        document.addEventListener('DOMContentLoaded', loadFallback);
-      }
-      function loadFallback() {
-        timerId = setTimeout(loadMetrica, 1000);
-      }
-      function loadMetrica(e) {
-        if (e && e.type) {
-          console.log(e.type);
-        } else {
-          console.log('DOMContentLoaded');
-        }
-        if (loadedMetrica) {
-          return;
-        }
-        (function (m, e, t, r, i, k, a) {
-          m[i] =
-            m[i] ||
-            function () {
-              (m[i].a = m[i].a || []).push(arguments);
-            };
-          m[i].l = 1 * new Date();
-          (k = e.createElement(t)),
-            (a = e.getElementsByTagName(t)[0]),
-            (k.async = 1),
-            (k.src = r),
-            a.parentNode.insertBefore(k, a);
-        })(
-          window,
-          document,
-          'script',
-          'https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js',
-          'ym'
-        );
-        ym(metricaId, 'init', {
-          clickmap: true,
-          trackLinks: true,
-          accurateTrackBounce: true,
-          webvisor: true,
-          ecommerce: 'dataLayer',
-        });
-        const event = new CustomEvent('yMetrikaLoaded');
-        window.dispatchEvent(event);
-        loadedMetrica = true;
-        clearTimeout(timerId);
-        window.removeEventListener('scroll', loadMetrica);
-        window.removeEventListener('touchstart', loadMetrica);
-        document.removeEventListener('mouseenter', loadMetrica);
-        document.removeEventListener('click', loadMetrica);
-        document.removeEventListener('DOMContentLoaded', loadFallback);
-      }
-    })();</script>
+ 
   <script defer="" src="./js/contact-widget.js"
     id="hde-contact-widget" data-assets-host="//cdn5.helpdeskeddy.com/" data-host="kupikodtest.helpdeskeddy.com"
     data-lang="ru"></script>
   <script src="./js/contact-widget-config.js"
     id="hde-contact-widget-config" defer=""></script>
-  <meta name="description"
-    content="KupiKod - сайт для покупки, пополнения игр, множества сервисов и приложений. У нас вы найдете множество отзывов, поддержку пользователей, большой выбор и низкие цены!">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Kupikod – оплата и пополнение зарубежных сервисов">
-  <meta property="og:description"
-    content="Пополняйте зарубежные сервисы, оплачивайте подписки, покупайте игры недоступные в России вместе с Kupikod по самым выгодным ценам. Поддержка по любым вопросам, сотни отзывов и множество акций">
-  <meta property="og:url" content="https://kupikod.com">
-  <meta property="og:image" content="https://kupikod.com/kupikod_1.jpg">
-  <meta property="og:site_name" content="Kupikod.com">
-  <meta property="og:locale" content="ru_RU">
-  <script type="application/ld+json"
-    async="">{"@context":"https://schema.org/","@type":"AggregateRating","itemReviewed":{"@type":"Organization","name":"Kupikod – покупка, пополнение игр и сервисов","url":"https://kupikod.com","email":"support@kupikod.com","sameAs":["https://vk.com/kupikod_com"],"logo":"Здесь нужна ссылка на логотип, я не нашёл","image":"Здесь нужна ссылка на изображение, я не нашёл","alternateName":"Kupikod – оплата и пополнение зарубежных сервисов","description":"KupiKod - сайт для покупки, пополнения игр, множества сервисов и приложений. У нас вы найдете множество отзывов, поддержку пользователей, большой выбор и низкие цены!","address":{"@type":"PostalAddress","streetAddress":"Азовская ул., 24, корп. 3","addressLocality":"Москва","postalCode":"117452"},"telephone":""},"ratingValue":"4,4","bestRating":"5","ratingCount":"27"}</script>
-  <noscript>
-    <div>
-      <img src="https://mc.yandex.ru/watch/89954502" style="position: absolute; left: -9999px" alt="" />
-    </div>
-  </noscript>
-  <link rel="preload" as="fetch" crossorigin="anonymous" href="https://kupikod.com/_payload.json">
-
+ 
+ 
   
  
  
@@ -140,11 +59,6 @@
   <link rel="prefetch" as="image" type="image/webp" href="https://kupikod.com/_nuxt/section-bonus-bg.f5ec9a6a.webp">
   <link rel="prefetch" as="image" type="image/webp"
     href="https://kupikod.com/_nuxt/section-bonus-bg-tablet.5fca5164.webp">
-  <link rel="prefetch" as="script" crossorigin="" href="https://kupikod.com/_nuxt/error-404.5197eefa.js">
-  <link rel="prefetch" as="script" crossorigin="" href="https://kupikod.com/_nuxt/error-500.db1d8608.js">
-  <!-- <script type="module" src="./js/entry.ba95563b.js"
-    crossorigin=""></script>
- -->
 
     <link rel="stylesheet" href="./css/page.css">
 </head>
@@ -152,13 +66,13 @@
 <body>
   <div class="widget" data-v-57a3a290="">
     <div class="widget_container" data-v-57a3a290="">
-      <div class="widget_logo" data-v-57a3a290=""><a href="https://kupikod.com/" data-v-57a3a290=""><img
+      <div class="widget_logo" data-v-57a3a290=""><a href="./index.html" data-v-57a3a290=""><img
             src="data:image/webp;base64,UklGRm4FAABXRUJQVlA4WAoAAAAQAAAAFAEAGwAAQUxQSNECAAABkJftb9hGgmAIghAIgRAGMYOFQcygZuAx6BgYQiAYgiF4d9dK+inu/R0REAS4bdscknS3AEwv9QdD0EqKQpUs9Uh/JRlJZFQSjFUiWgesXiO/W2bJzj8vTXARSdNjDEv89XF1U66rbPRXpmywSTvcJEdtoZtw0ekANiGvnB3J1U4DmEmURX4yTcwoOPCEEF9ww6yAm4TYxY1eA03NKDDwhGzd4eiwC7hoBzhFd5locsaBAk2IX7jdlbGbeShVzU9HASeEm1MydqWzjXCJzjb6AMYKAk5I9UpWXRlVwXgQ/QiyC6HaJiT6RYuujGhgEQ8YF9MsRIuOJvADYpsQ29ueo6Lc5DcqXxEzqfMlmvoONA2wSRBoQlge82BKJoZRs4EmFxH1IJqI5mG1aGue7OYJ2eRzs0lZPPqpoCZlQjH8yf/Bp6EJyeJ5zUaQBruooCZFWP6TK30QEQSakG/xcPguuzEd7E0VO2nik+mDaAHjvOTNZi8iOxThQRKx6mKMPBeJTNjvnxSe0p3bfNhzQztBtSKF+PGkkSejb/cV4cFTBsgNnS1XA1rY5EhjX8Y4RQ7PIrIKahLq6VRZgfk1XNhtfjwDeTPOu4pQQU0aBhN5BNFTizqrXGBwopeVyImubL97ilABTbJhLzqU3Np1lbaIKUtbhiykwVYRkRdt0ZZwbilCo1bQpEYNhiUkpTE3sQpZhaKlZ1sb3H2LYD+TGvl1twYeyYtEk1HDizNlJeWeItjRpO7ZlFvU5cNFk5FtO+npu5Bz0Rt+JrVVeSC36wpb48lI1h3k8fYjTkUIuJlUFrLMueXSKk4NNBVdOZnFLubj18fTpQgcPY18P4HkljdTx+gH0RwYJ8R68kkNLCKp2XxMmheyoL/IqSFhAs2CPCEO/3E6wCIMeJgsLzps/RRJKWgbaku5qMopLnbfHgTJ5L+I+S2tyaAcmPEi7NkKaJIAAFZQOCB2AgAAkBEAnQEqFQEcAD6JQJdHpSSiISnYv1igEQlsANU9tP5L+FfYxU/5x+Of44dELrp3eygPlQ+6fbn7s/5B0gH6K9IDzAfyL/Vf4r+S+7v/M/7X/APJA+QD+Vf770ZvYA9AD+Af0D0ov16+Ab9sf259oL//gM8k4wVpMi5Z1wQLsipBniWhq+dhw6c9Cd0HEE/in9TcLIAA/utj8e1RdgKzxPZbaO0rV5wv5PdcD32/K+PgERpYgH8u+XVHvJJb5rEf9jOfqfHKwnN6NthRFmL1yIQ/7jlFDUeosrEv/4IRN0qSgbnTaGZAdqa1g7D4eiPAk5rJVh+4VvpeQ3oR1EqtIEdRLKjJrkov3c6lUFzkSK6zxDUj1LNn7ia87MhreP0RMi05kKvx6pcrM4wgBkCO7yT4RcpqfjKGmE0Rx7ZDUIyQgrJ4MYxO+vRJs0cvpjutcxTlP/QL/hxU+310JtAakVGVIug80KCQeMxvZdn0PypvkOjZlaWgUArnYgdoTZ8ea1+ZlclfO26WFGoQXYNsboggQ+hjzLG/vGQvwZPveQvE1JzwkrJqUQ6KmhNvYb3ZfxeUPdycUo9G9do32ZfupQC6H9uRwHtcY/vG3BPQy/W7rIhfzVkRfxz73zPakIVEKxjztFP3IgitGN40oYs72dzUYNddlyRc5a8C3IJApkyQRAIqjHHThMtTdlKqdI3EBcnTgTR6IPwBnEiwsSsF+LKdSeYKVwwFZI/Ttj2P8Xqzg0BF7bNTLfzoaPW1k9X4t7HEhbWWT4qX1cpuRRXcxXR8lylhnrVr5eHgGgraf8Pp+Y+kRHPNJBWtmDH1AMW24QCoAAAA"
             alt="logo" data-v-57a3a290="">
           <div class="widget_title" data-v-57a3a290="">Пополнение сервисов</div>
         </a></div>
       <div class="show widget_items" data-v-57a3a290=""><!--[--><!--[--><a target="_blank"
-          href="https://steam.kupikod.com/?utm_source=kupikod.com" class="widget_balance widget_item widget-item"
+          href="../replenishment/index.html" class="widget_balance widget_item widget-item"
           data-v-57a3a290="">
           <div class="widget-item_img" data-v-57a3a290="">
             <div class="widget-item_img-box" data-v-57a3a290=""><img class="img"
@@ -173,7 +87,7 @@
             <div class="widget-item_name" data-v-57a3a290="">Пополняй Steam</div>
             <div class="widget-item_description" data-v-57a3a290="">Комиссия от 0%</div>
           </div>
-        </a><!--]--><!--[--><a href="https://kupikod.com/gold/" rel="noopener noreferrer"
+        </a><!--]--><!--[--><a href="../mobile game/index.html" rel="noopener noreferrer"
           class="widget_item widget-item" data-v-57a3a290="">
           <div class="widget-item_img" data-v-57a3a290="">
             <div class="widget-item_img-box" data-v-57a3a290=""><img class="img"
@@ -188,7 +102,7 @@
             <div class="widget-item_name" data-v-57a3a290="">Мобильные игры</div>
             <div class="widget-item_description" data-v-57a3a290="">Пополняй валюту</div>
           </div>
-        </a><!--]--><!--[--><a href="https://steam.kupikod.com/ru-ru/games/top?utm_source=kupikod.com"
+        </a><!--]--><!--[--><a href="../mobile game/index.html"
           rel="noopener noreferrer" class="widget_item widget-item" data-v-57a3a290="">
           <div class="widget-item_img" data-v-57a3a290="">
             <div class="widget-item_img-box" data-v-57a3a290=""><img class="img"
@@ -203,7 +117,7 @@
             <div class="widget-item_name" data-v-57a3a290="">Покупай гифты</div>
             <div class="widget-item_description" data-v-57a3a290="">недоступные в РФ</div>
           </div>
-        </a><!--]--><!--[--><a target="_blank" href="https://kupikod.com/shop?utm_source=kupikod.com"
+        </a><!--]--><!--[--><a target="_blank" href="../gift/index.html"
           class="widget_codes widget_item widget-item" data-v-57a3a290="">
           <div class="widget-item_img" data-v-57a3a290="">
             <div class="widget-item_img-box" data-v-57a3a290=""><img class="img"
@@ -230,7 +144,7 @@
             <div class="section-title__description" data-v-7c9632e6=""> Игры, подписки софт для РФ и не только </div>
             <div class="container" data-v-7c9632e6="">
               <div class="section-title__grid" data-v-7c9632e6=""><a
-                  href="https://kupikod.com/shop/?utm_source=kupikod.com" target="_blank" class="block-10k-games"
+                  href="../key/KupiKod - магазин цифровых товаров.html" target="_blank" class="block-10k-games"
                   data-v-7c9632e6="" data-v-593eb48c=""><svg class="block-10k-games__bg-figure" width="554" height="544"
                     viewBox="0 0 554 544" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-593eb48c="">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -245,7 +159,7 @@
                     <path opacity="0.5" d="M2 18L18 2M18 2H2M18 2V18" stroke="white" stroke-width="2.5"
                       stroke-linecap="round" stroke-linejoin="round" data-v-593eb48c=""></path>
                   </svg>
-                </a><a href="https://vk.com/topic-215731237_49133433?utm_source=kupikod.com" target="_blank"
+                </a><a href="#" target="_blank"
                   class="block-read" data-v-7c9632e6="" data-v-79f4e56f="">
                   <div class="block-read__container" data-v-79f4e56f=""><svg class="block-read__figure" width="289"
                       height="289" viewBox="0 0 289 289" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -402,7 +316,7 @@
                   продакшн в медиа. </div>
               </div>
               <div class="section-our-products__grid" data-v-3ca4c476=""><a
-                  href="https://steam.kupikod.com/ru-ru/games?utm_source=kupikod.com" target="_blank"
+                  href="#" target="_blank"
                   class="block-gifts grid-item grid-item--gift" data-v-3ca4c476="" data-v-9dbd36e5="">
                   <div class="block-gifts__container" data-v-9dbd36e5="">
                     <div class="block-gifts__backdrop" data-v-9dbd36e5=""></div>
@@ -419,7 +333,7 @@
                   </div><img class="block-gifts__img-cards"
                     src="./img/block-gift-cards.1c455de7.webp" alt=""
                     data-v-9dbd36e5="">
-                </a><a href="https://steam.kupikod.com/skins" target="_blank"
+                </a><a href="#" target="_blank"
                   class="block-skins grid-item grid-item--skins" data-v-3ca4c476="" data-v-c19425ec="">
                   <div class="block-skins__text" data-v-c19425ec="">
                     <div class="block-skins__header" data-v-c19425ec="">Пополняй Steam скинами</div>
@@ -479,7 +393,7 @@
                       class="block-clash__img-line" data-v-535f647c="">
                     <div class="block-clash__text" data-v-535f647c="">Пополнение мобильных игр</div>
                   </div>
-                </a><a href="https://steam.kupikod.com/" target="_blank" class="block-steam grid-item grid-item--steam"
+                </a><a href="../replenishment/index.html" target="_blank" class="block-steam grid-item grid-item--steam"
                   data-v-3ca4c476="" data-v-a3370276="">
                   <div class="block-steam__container" data-v-a3370276=""><img
                       src="./img/block-steam-line-2.d543b103.webp" alt=""
@@ -498,7 +412,7 @@
                         stroke-linecap="round" stroke-linejoin="round" data-v-a3370276=""></path>
                     </svg>
                     <div class="block-steam__text" data-v-a3370276="">
-                      <div href="https://steam.kupikod.com" class="block-steam__title" data-v-a3370276="">Пополнение
+                      <div href="../replenishment/index.html" class="block-steam__title" data-v-a3370276="">Пополнение
                         Steam</div>
                       <div class="block-steam__description" data-v-a3370276=""> Моментально<br data-v-a3370276=""> и
                         безопасно </div>
@@ -520,7 +434,7 @@
                 <div class="window__title" data-v-1ad72289=""> Экономь на пополнении с бонусной системой </div>
                 <div class="window__description" data-v-1ad72289=""> Получайте бонусы за пополнение баланса, покупки,
                   участие в ивентах и активностях </div><a
-                  href="https://steam.kupikod.com/bonus-program?utm_source=kupikod.com" target="_blank"
+                  href="#" target="_blank"
                   class="window__button" data-v-1ad72289="">Подробнее</a>
                   <svg class="window__coin"
                   xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66" fill="none"
@@ -670,22 +584,22 @@
                 </div>
                 <div class="footer__col footer__col--2" data-v-ff8c1214="">
                   <div class="footer__col-head" data-v-ff8c1214="">Продукты</div><a class="footer__link" target="_blank"
-                    href="https://steam.kupikod.com/?utm_source=kupikod.com" data-v-ff8c1214="">Пополнить Стим</a><a
+                    href="../replenishment/index.html" data-v-ff8c1214="">Пополнить Стим</a><a
                     class="footer__link" target="_blank"
-                    href="https://steam.kupikod.com/ru-ru/games?utm_source=kupikod.com" data-v-ff8c1214="">Купить игру в
-                    Стим гифтом</a><a class="footer__link" target="_blank" href="https://kupikod.com/gold/"
+                    href="../replenishment/index.html" data-v-ff8c1214="">Купить игру в
+                    Стим гифтом</a><a class="footer__link" target="_blank" href="../mobile game/index.html"
                     data-v-ff8c1214="">Донат в мобильные игры</a><a class="footer__link" target="_blank"
-                    href="https://kupikod.com/shop/?utm_source=kupikod.com" data-v-ff8c1214="">Купить игру ключом</a><a
-                    class="footer__link" target="_blank" href="https://kupikod.com/activator/?utm_source=kupikod.com"
+                    href="#" data-v-ff8c1214="">Купить игру ключом</a><a
+                    class="footer__link" target="_blank" href="#"
                     data-v-ff8c1214="">Активатор</a>
                 </div>
                 <div class="footer__col footer__col--3" data-v-ff8c1214="">
                   <div class="footer__col-head" data-v-ff8c1214="">Связаться с нами</div><a
-                    class="footer__link footer__link--underline" href="https://t.me/kupikod_bot" target="_blank"
+                    class="footer__link footer__link--underline" href="#" target="_blank"
                     data-v-ff8c1214=""><img
                       src="data:image/webp;base64,UklGRh4BAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSMYAAAABgCxJtmmrr+37bNu2NbJt23797xvnehwRE4AM3hQfZ/PB50Yc8sY/SNIfI2v5wT/FL1NMnKOPVJ4hhqXzH9TcMuSoO6B0u/BDmDLgHH2m9K3TuUqxS6tk9oPy/aBrj9JSlan0gMqPXvgvKA+pDqg+DCF4Rfk7lPZlxfeQGcEHKg9UQLB1+Z48KAIiD1Qv6YjZfgDBB2oOGZHOUbcmJnkPOvkxQXBB9WeLDdD2ILtCzIMLkr3YAZ2PJPvigeDC51EwLoAJGTNWUDggMgAAANACAJ0BKiAAIAA+kTSkUiWiI6OUALASCWkAAEuuigAA+Ff//Gk0/27f5X//+9aAAAAA"
                       alt="" data-v-ff8c1214=""> Поддержка клиентов </a><a class="footer__link footer__link--underline"
-                    href="https://t.me/kupikod_b2b?utm_source=kupikod.com" target="_blank" data-v-ff8c1214=""><img
+                    href="#" target="_blank" data-v-ff8c1214=""><img
                       src="data:image/webp;base64,UklGRh4BAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSMYAAAABgCxJtmmrr+37bNu2NbJt23797xvnehwRE4AM3hQfZ/PB50Yc8sY/SNIfI2v5wT/FL1NMnKOPVJ4hhqXzH9TcMuSoO6B0u/BDmDLgHH2m9K3TuUqxS6tk9oPy/aBrj9JSlan0gMqPXvgvKA+pDqg+DCF4Rfk7lPZlxfeQGcEHKg9UQLB1+Z48KAIiD1Qv6YjZfgDBB2oOGZHOUbcmJnkPOvkxQXBB9WeLDdD2ILtCzIMLkr3YAZ2PJPvigeDC51EwLoAJGTNWUDggMgAAANACAJ0BKiAAIAA+kTSkUiWiI6OUALASCWkAAEuuigAA+Ff//Gk0/27f5X//+9aAAAAA"
                       alt="" data-v-ff8c1214=""> B2B сотрудничество </a><a
                     class="footer__link footer__link--underline footer__link--contacts" target="_blank"
@@ -768,15 +682,7 @@
       </div>
     </div><!----><!--]-->
   </div>
-  <script type="application/json" id="__NUXT_DATA__" data-ssr="true"
-    data-src="/_payload.json">[{"state":1,"_errors":3,"serverRendered":5,"path":6,"prerenderedAt":7},["Reactive",2],{},["Reactive",4],{},true,"/",1710529140871]</script>
-  <script>window.__NUXT__ = {}; window.__NUXT__.config = { public: {}, app: { baseURL: "/", buildAssetsDir: "/_nuxt/", cdnURL: "" } }</script>
-  <div id="hde-contact-chat-container-2" style="position: absolute; z-index: 2147483647; right: 326px; bottom: 0%;">
-    <script type="text/javascript" src="./js/hde.js"
-      id="hde-chat-widget" data-lang="ru" data-host="kupikodtest.helpdeskeddy.com"
-      data-custom-container="hde-contact-chat-container-2" data-custom-button="hde-chat-init-btn-2"
-      data-position="bottom-right" data-width="300" data-height="400"></script>
-    <div id="hde-container" style="overflow: hidden; width: 90px; height: 90px; inset: auto 0px 0px auto;">
+     <div id="hde-container" style="overflow: hidden; width: 90px; height: 90px; inset: auto 0px 0px auto;">
       <style>
         #hde-iframe {
           width: 100%;
@@ -839,211 +745,7 @@
       <div id="hde-chat-container" style="width: 90px; height: 90px;"></div>
     </div>
   </div>
-  <div id="hde-contact-container"
-    style="visibility: visible; height: auto; width: auto; position: fixed; z-index: 999999999; letter-spacing: normal; user-select: none; right: 2%; bottom: 2%;">
-    <div id="hde-contact-container-size" style="font-size: 30px;">
-      <div id="hde-contact-open-btn"
-        style="background: rgb(30, 102, 248); width: 1em; height: 1em; padding: 0.5em; line-height: 2em; text-align: center; border-radius: 50%; animation: 2s ease 0s infinite normal none running hde-contact-pulse; cursor: pointer; font-size: 1em; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0.5em 0px;">
-        <svg version="1.1" id="hde-contact-show" style="display:block" xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 363 363" xml:space="preserve"
-          fill="#000601">
-          <path
-            d="M277.73,94.123c0,10.997-8.006,17.685-13.852,22.593c-2.214,1.859-6.335,5.251-6.324,6.518 c0.04,4.97-3.956,8.939-8.927,8.939c-0.025,0-0.05,0-0.075,0c-4.936,0-8.958-3.847-8.998-8.792 c-0.079-9.747,7.034-15.584,12.75-20.383c4.485-3.766,7.426-6.416,7.426-8.841c0-4.909-3.994-8.903-8.903-8.903 c-4.911,0-8.906,3.994-8.906,8.903c0,4.971-4.029,9-9,9s-9-4.029-9-9c0-14.834,12.069-26.903,26.904-26.903 C265.661,67.253,277.73,79.288,277.73,94.123z M248.801,140.481c-4.971,0-8.801,4.029-8.801,9v0.069 c0,4.971,3.831,8.966,8.801,8.966s9-4.064,9-9.035S253.772,140.481,248.801,140.481z M67.392,203.174c-4.971,0-9,4.029-9,9 s4.029,9,9,9h0.75c4.971,0,9-4.029,9-9s-4.029-9-9-9H67.392z M98.671,203.174c-4.971,0-9,4.029-9,9s4.029,9,9,9h0.749 c4.971,0,9-4.029,9-9s-4.029-9-9-9H98.671z M363,59.425v101.301c0,23.985-19.232,43.448-43.217,43.448H203.066 c-2.282,0-4.161-0.013-5.733-0.046c-1.647-0.034-3.501-0.047-4.224,0.033c-0.753,0.5-2.599,2.191-4.378,3.83 c-0.705,0.649-1.503,1.363-2.364,2.149l-33.022,30.098c-2.634,2.403-6.531,3.025-9.793,1.587c-3.262-1.439-5.552-4.669-5.552-8.234 v-95.417H43.72c-14.062,0-25.72,11.523-25.72,25.583v101.301c0,14.061,11.659,25.116,25.72,25.116h130.374 c2.245,0,4.345,1.031,6.003,2.545L207,317.523v-85.539c0-4.971,4.029-9,9-9s9,4.029,9,9v105.938c0,3.565-2.04,6.747-5.303,8.186 c-1.167,0.515-2.339,0.718-3.566,0.718c-2.204,0-4.378-0.905-6.069-2.449l-39.457-36.204H43.72c-23.986,0-43.72-19.13-43.72-43.116 V163.757c0-23.985,19.734-43.583,43.72-43.583H138V59.425c0-23.986,19.885-43.251,43.871-43.251h137.913 C343.768,16.174,363,35.439,363,59.425z M345,59.425c0-14.061-11.157-25.251-25.217-25.251H181.871 C167.81,34.174,156,45.364,156,59.425v69.833v83.934l18.095-16.353c0.838-0.765,1.777-1.465,2.462-2.097 c8.263-7.614,10.377-8.831,21.155-8.609c1.47,0.031,3.221,0.042,5.354,0.042h116.717c14.06,0,25.217-11.388,25.217-25.448V59.425z">
-          </path>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-        </svg> <svg version="1.1" id="hde-contact-hide" xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.001 512.001"
-          style="enable-background:new 0 0 512.001 512.001; display:none;" xml:space="preserve" fill="#000601">
-          <g>
-            <g>
-              <path
-                d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717 L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859 c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287 l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285 L284.286,256.002z">
-              </path>
-            </g>
-          </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-          <g> </g>
-        </svg>
-      </div>
-      <ul id="hde-contact-list" style="list-style: none; margin: 0px; padding: 0px; top: 0px; right: 0px;">
-        <li style="background: rgb(23, 156, 222);"><a href="https://t.me/kupikod_bot" target="_blank"><svg version="1.1"
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-              viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="30px"
-              height="30px" fill="#fff">
-              <g>
-                <g>
-                  <g>
-                    <path
-                      d="M385.268,121.919l-210.569,129.69c-11.916,7.356-17.555,21.885-13.716,35.323l22.768,80 c1.945,6.821,8.015,11.355,14.999,11.355c0.389,0,0.782-0.014,1.176-0.043c7.466-0.542,13.374-6.103,14.367-13.515l5.92-43.866 c0.798-5.902,3.642-11.392,8.001-15.45l173.765-161.524c5.251-4.869,5.945-12.842,1.618-18.545 C399.263,119.636,391.388,118.16,385.268,121.919z M214.32,290.478c-7.808,7.268-12.895,17.089-14.323,27.655l-2.871,21.278 l-16.527-58.072c-1.343-4.704,0.635-9.791,4.805-12.365l154.258-95.007L214.32,290.478z">
-                    </path>
-                    <path
-                      d="M503.67,37.382c-6.579-5.576-15.657-7.111-23.698-4.005L15.08,212.719C5.873,216.27-0.047,224.939,0,234.804 c0.048,9.874,6.055,18.495,15.316,21.965l108.59,40.529l42.359,136.225c2.326,7.489,8.197,13.308,15.703,15.566 c7.502,2.256,15.604,0.643,21.66-4.31l63.14-51.473c3.032-2.472,7.362-2.594,10.528-0.295l113.883,82.681 c4.097,2.978,8.932,4.511,13.823,4.511c2.865,0,5.749-0.526,8.517-1.596c7.486-2.895,12.93-9.312,14.56-17.163l83.429-401.309 C513.26,51.685,510.257,42.967,503.67,37.382z M491.536,55.99l-83.428,401.308c-0.302,1.45-1.346,2.053-1.942,2.284 c-0.6,0.232-1.785,0.489-2.997-0.393l-113.887-82.685c-5.091-3.696-11.077-5.531-17.052-5.531 c-6.518,0-13.027,2.185-18.347,6.519l-63.154,51.485c-1.124,0.92-2.291,0.756-2.885,0.577c-0.598-0.18-1.665-0.69-2.099-2.086 l-43.845-141.006c-0.937-3.013-3.217-5.423-6.173-6.527L22.462,237.662c-1.696-0.635-2.057-1.958-2.062-2.957 c-0.005-0.99,0.343-2.307,2.023-2.955L487.316,52.409c0.002-0.001,0.005-0.002,0.008-0.003c1.51-0.583,2.627,0.087,3.159,0.537 C491.017,53.398,491.867,54.398,491.536,55.99z">
-                    </path>
-                  </g>
-                </g>
-              </g>
-              <g>
-                <g>
-                  <path
-                    d="M427.481,252.142c-5.506-1.196-10.936,2.299-12.131,7.804l-1.55,7.14c-1.195,5.505,2.299,10.936,7.804,12.131 c0.729,0.158,1.456,0.234,2.174,0.234c4.695,0,8.92-3.262,9.958-8.037l1.55-7.14C436.48,258.769,432.985,253.338,427.481,252.142z ">
-                  </path>
-                </g>
-              </g>
-              <g>
-                <g>
-                  <path
-                    d="M417.281,299.122c-5.512-1.195-10.938,2.299-12.132,7.804l-23.459,108.051c-1.195,5.505,2.299,10.936,7.803,12.131 c0.73,0.158,1.457,0.234,2.174,0.234c4.696,0,8.92-3.262,9.958-8.037l23.459-108.052 C426.279,305.748,422.785,300.317,417.281,299.122z">
-                  </path>
-                </g>
-              </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-              <g> </g>
-            </svg></a></li>
-        <li style="background: rgb(18, 83, 108);"><span id="hde-chat-init-btn-2"><svg viewBox="0 -38 512 512"
-              xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="#fff">
-              <path
-                d="m492 0h-396c-11.046875 0-20 8.953125-20 20v55.996094h-56c-11.046875 0-20 8.953125-20 20v235.988281c0 11.042969 8.953125 19.996094 20 19.996094h56v64c0 17.257812 20.476562 26.398437 33.324219 14.910156l88.308593-78.910156h218.367188c11.046875 0 20-8.953125 20-19.996094v-56h56c11.046875 0 20-8.953125 20-19.996094v-235.988281c0-11.046875-8.953125-20-20-20zm-96 311.984375h-206c-4.914062 0-9.660156 1.808594-13.324219 5.085937l-60.675781 54.214844v-39.304687c0-11.042969-8.953125-19.996094-20-19.996094h-56v-195.992187h356zm76-75.996094h-36v-139.992187c0-11.046875-8.953125-20-20-20h-300v-36h356zm-396-61.332031c0-11.046875 8.953125-20 20-20h240c11.046875 0 20 8.953125 20 20s-8.953125 20-20 20h-240c-11.046875 0-20-8.953125-20-20zm0 78.664062c0-11.042968 8.953125-20 20-20h160c11.046875 0 20 8.957032 20 20 0 11.046876-8.953125 20-20 20h-160c-11.046875 0-20-8.953124-20-20zm0 0">
-              </path>
-            </svg></span></li>
-      </ul>
-    </div>
-    <style>
-      @-webkit-keyframes hde-contact-pulse {
-        0% {
-          -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
-          transform: scale(1.05, 1.05);
-        }
-
-        50% {
-          -webkit-box-shadow: 0 0 0 .5em rgba(0, 0, 0, 0);
-          transform: scale(1.0, 1.0);
-        }
-
-        100% {
-          -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-        }
-      }
-
-      @keyframes hde-contact-pulse {
-        0% {
-          -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
-          transform: scale(1.05, 1.05);
-        }
-
-        50% {
-          -moz-box-shadow: 0 0 0 0.5em rgba(0, 0, 0, 0);
-          box-shadow: 0 0 0 0.5em rgba(0, 0, 0, 0);
-          transform: scale(1.0, 1.0);
-        }
-
-        100% {
-          -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-        }
-      }
-
-      @-ms-keyframes hde-contact-pulse {
-        0% {
-          -ms-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
-          -ms-transform: scale(1.05, 1.05);
-        }
-
-        50% {
-          -ms-box-shadow: 0 0 0 0.5em rgba(0, 0, 0, 0);
-          box-shadow: 0 0 0 0.5em rgba(0, 0, 0, 0);
-          -ms-transform: scale(1.0, 1.0);
-        }
-
-        100% {
-          -ms-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-        }
-      }
-
-      #hde-contact-container #hde-contact-list li {
-        background: blue;
-        color: #fff;
-        width: 2em;
-        height: 2em;
-        text-align: center;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        border-radius: 50%;
-        cursor: pointer;
-        position: absolute;
-        display: none;
-        -webkit-box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.5);
-        -moz-box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.5);
-        box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.5);
-        overflow: hidden;
-      }
-
-      #hde-contact-container #hde-contact-list li a,
-      #hde-contact-container #hde-contact-list li span {
-        padding: 0.475em;
-        line-height: 1em;
-        float: left;
-        padding: .5em;
-        font-size: 1em;
-        cursor: pointer;
-      }
-
-      #hde-contact-container * {
-        -webkit-box-sizing: unset !important;
-        -moz-box-sizing: unset !important;
-        box-sizing: unset !important;
-      }
-
-      #hde-contact-container svg {
-        max-width: none !important;
-        max-height: none !important;
-        height: auto !important;
-        vertical-align: baseline !important;
-      }
-    </style>
-  </div>
+  
 </body>
 
 </html>
